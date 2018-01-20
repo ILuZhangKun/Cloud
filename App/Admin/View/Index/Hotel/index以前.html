@@ -1,0 +1,211 @@
+<include file="Public/head" />
+<body class="no-skin">
+    <include file="Public/header" />
+    <div class="main-container" id="main-container">
+        <script type="text/javascript">
+            try {
+                ace.settings.check('main-container', 'fixed')
+            } catch (e) {}
+        </script>
+        <include file="Public/sidebar" />
+        <div class="main-content">
+            <div class="main-content-inner">
+                <!-- #section:basics/content.breadcrumbs -->
+                <include file="Public/breadcrumbs" />
+                <!-- /section:basics/content.breadcrumbs -->
+                <div class="page-content">
+
+                    <include file="Public/set" />
+                     <script type="text/javascript" src="__PUBLIC__/Admin/js/changedata.js"></script>
+
+ <div style="width: auto;height: auto;">                   <!-- /section:settings.box -->  
+               
+<!-- left -->
+
+<div class="lcontentpage" style="border: 1px solid #8DB6CD;width: 635px;height:150px;float: left;margin: 10px;position: relative;margin-top: 23px;">
+    <div style="height: 30px;position:absolute;top: 0px;width: 100%;background-color:#8DB6CD;line-height: 30px;padding-left: 10px;color:white; ">
+        >&nbsp;{$h_name}
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+        <input type="button" value="返回" name="" onclick="window.history.back(); " style="height: 20px;width: 40px;margin-top: 7px;line-height: 17px;border: 1px solid white;background-color: transparent;border-radius: 8px;">
+    </div>
+    <div style="position: absolute;top: 40px;margin-left: 25px;">
+    <form>
+          &nbsp;&nbsp;查询菜品某日的销量：
+        <select name="resname" onchange="" id="sel_1">
+            <option value="0" selected="selected">------请选择菜品------</option>
+            <foreach name="detail" item="v">
+              <option value="Name:{$v.menu_name} Num:{$v.num}">{$v.menu_name}</option>
+            </foreach>
+          
+        </select>
+<input type="date" name="" autofocus="true" required="true" style="width: 170px;height: 30px;margin-left: 10px;">
+                                    <input type="button" value="查询" onclick="test1()" style="margin-left: 10px;width:60px; ">
+                                    <input type="button" value="切换数据" onclick="displaydata()" style="margin-left: 10px;width:60px;">
+                                </div> 
+                                 </form> 
+                                 <div >
+    
+
+
+    <div style="display: block;width: 140px;height: 30px;background-color:#E0EEEE;border-radius: 10px;text-align: center;margin-left: 425px;position: absolute;top: 90px;line-height: 30px;"><a href="{:U('displayBox')}" style="color: white;color: black;">总体销售详情</a></div>
+                                 </div>
+  
+                            </div>
+
+<!-- 柱状图表部分 -->
+<div style="width: 635px;height: 455px;border:1px solid white;position: relative;top: 190px;margin-left: 10px;">
+ 
+
+ 
+ <div id="main" style="width: 620px;height: 450px;position: absolute;top: 40px;margin-left: 10px;">
+</div>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/echarts.min.js"></script>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('main'));
+    var option = {
+
+        title: {
+          text: '销量前五的菜品的数量及金额',
+          left:'center',
+          top:0,
+          textStyle: {
+              fontWeight: 'normal',
+              color: "#000",
+              fontSize: 20
+          }
+      },
+ 
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+        left:20,
+        top:30,
+        itemGap: 16,
+        itemWidth: 18,
+        itemHeight: 10,
+        data:['数量','金额']
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            dataView : {show: true, readOnly: false},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    calculable : true,
+    xAxis : [
+        {
+            type : 'category',
+            data : ['{$FirstFive.0.menu_name}','{$FirstFive.1.menu_name}','{$FirstFive.2.menu_name}','{$FirstFive.3.menu_name}','{$FirstFive.4.menu_name}']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value'
+        }
+    ],
+    series : [
+        {
+            name:'数量',
+            type:'bar',
+            data:[{$FirstFive.0.total}, {$FirstFive.1.total}, {$FirstFive.2.total}, {$FirstFive.3.total}, {$FirstFive.4.total}],
+            markPoint : {
+                data : [
+                    {type : 'max', name: '最大值'},
+                    {type : 'min', name: '最小值'}
+                ]
+            },
+            markLine : {
+                data : [
+                    {type : 'average', name: '平均值'}
+                ]
+            }
+        },
+        {
+            name:'金额',
+            type:'bar',
+            data:[{$FirstFive.0.sum}, {$FirstFive.1.sum}, {$FirstFive.2.sum}, {$FirstFive.3.sum}, {$FirstFive.4.sum}],
+           
+            markLine : {
+                data : [
+                    {type : 'average', name : '平均值'}
+                ]
+            }
+        }
+    ]
+};
+    myChart.setOption(option);
+</script>
+
+</div>
+    <script type="text/javascript">
+        function test1() {
+            var msg = " ";
+            msg += "当日销售量为:";
+            msg +="\n当日的销售额为:";
+            alert(document.getElementById('sel_1').value);
+            }
+       
+     </script>
+</div>                                          
+</div>
+
+
+
+<!-- right -->
+
+<div class="rcontentpage" style="border:1px solid rgb(74,157,99); width: 500px;height: 620px;margin-left: 690px;position: relative;margin-top: -455px;">
+     <div style="height: 30px;position:absolute;top: 0px;width: 100%;background-color: rgb(77,159,103);line-height: 30px;padding-left: 10px;color:white; ">
+        >&nbsp;销售详情
+    </div>
+    <div style="overflow: scroll;height:580px;position: absolute;top: 30px; ">
+        <table style="border: 1px solid gray;margin: 15px;width: 465px;height: 535px;">
+            <thead>
+                <tr style="background-color: rgb(248,248,248);border : 1px solid white;">
+                <td>菜品</td>
+                <td>数量</td>
+                <td>单价</td>
+                <td>总销售额</td>
+                </tr>
+            </thead>
+            <tbody>
+                <foreach name="detail" item="v">
+                    <tr style="background-color: rgb(230,230,230);border : 1px solid white;">
+                        <td>{$v.menu_name}</td>
+                        <td>{$v.num}</td>
+                        <td>{$v.price}</td>
+                        <td>{$v.total}</td>
+                    </tr>
+                </foreach>
+            </tbody>            
+        </table>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+                </div>
+
+                <!-- /.page-content -->
+            </div>
+        </div>
+        <!-- /.main-content -->
+        <include file="Public/footer" />
+    </div>
+    <!-- /.main-container -->
+    <include file="Public/footerjs" />
+    <!-- inline scripts related to this page -->
+</body>
+
+</html>

@@ -1,4 +1,3 @@
-2017-04-19 完成连锁机构增删改查
-           完成菜系增删改查
-           完成菜谱增查
-#SmartOrderCloud
+# Cloud
+The cloud management platform of the smart order system.
+未迁移广告管理版
