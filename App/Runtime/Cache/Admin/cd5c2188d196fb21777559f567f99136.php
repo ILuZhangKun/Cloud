@@ -10,6 +10,7 @@
     <meta name="description" content="<?php echo (C("description")); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
+<<<<<<< HEAD
     <link rel="stylesheet" href="/cloud/Public/Admin/css/box.css" />
     <link rel="stylesheet" href="/cloud/Public/Admin/css/style.css" />
     <!-- bootstrap & fontawesome -->
@@ -34,19 +35,55 @@
 
     <!--[if lte IE 9]>
     <link rel="stylesheet" href="/cloud/Public/Admin/css/ace-ie.css"/>
+=======
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/box.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/style.css" />
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/font-awesome.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/jquery-ui.css" />
+    <!-- page specific plugin styles -->
+
+    <!-- text fonts -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-fonts.css" />
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+    <link rel="icon" href="https://static.jianshukeji.com/highcharts/images/favicon.ico">
+
+    <!--ads add and show styles-->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/newLayout.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/newLayout1.css" />
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-part2.css" class="ace-main-stylesheet"/>
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-ie.css"/>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
     <![endif]-->
 
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
+<<<<<<< HEAD
     <script src="/cloud/Public/Admin/js/ace-extra.js"></script>
+=======
+    <script src="/Cloud/Public/Admin/js/ace-extra.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
     <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
 
     <!--[if lte IE 8]>
+<<<<<<< HEAD
     <script src="/cloud/Public/Admin/js/html5shiv.js"></script>
     <script src="/cloud/Public/Admin/js/respond.js"></script>
+=======
+    <script src="/Cloud/Public/Admin/js/html5shiv.js"></script>
+    <script src="/Cloud/Public/Admin/js/respond.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
     <![endif]-->
 </head>
 
@@ -104,7 +141,11 @@
         </li>
         <li class="light-blue">
           <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+<<<<<<< HEAD
                             <img class="nav-user-photo" src="<?php if( $user["head"] == '' ): ?>/cloud/Public/Admin/avatars/avatar2.png
+=======
+                            <img class="nav-user-photo" src="<?php if( $user["head"] == '' ): ?>/Cloud/Public/Admin/avatars/avatar2.png
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                             <?php else: ?>
                             <?php echo ($user["head"]); endif; ?>" alt="<?php echo ($user["user"]); ?>" />
                             <span class="user-info">
@@ -385,7 +426,11 @@
             </div><!-- /.pull-left -->
         </div><!-- /.ace-settings-box -->
     </div><!-- /.ace-settings-container -->
+<<<<<<< HEAD
                     <script type="text/javascript" src="/cloud/Public/Admin/js/changedata.js"></script>
+=======
+                    <script type="text/javascript" src="/Cloud/Public/Admin/js/changedata.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
                     <div style="width: auto;height: auto;">
                         <!-- /section:settings.box -->
@@ -397,11 +442,16 @@
                                 >&nbsp;<?php echo ($h_name); ?> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                                 <input type="button" value="返回" name="" onclick="window.history.back(); " style="height: 20px;width: 40px;margin-top: 7px;line-height: 17px;border: 1px solid white;background-color: transparent;border-radius: 8px;">
                             </div>
+<<<<<<< HEAD
                             <div style="position: absolute;top: 40px;margin-left: 25px;">
+=======
+                            <div style="position: absolute;top: 40px;width: 100%;">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                                 <form action="" method="post">
                                     &nbsp;&nbsp;查询某日菜品的销量：
                                     <select name="resname" onchange="" id="sel_1">
             <option value="0" selected="selected">------请选择菜品------</option>
+<<<<<<< HEAD
             <?php if(is_array($detail)): foreach($detail as $key=>$v): ?><!-- <option value="Name:<?php echo ($v["menu_name"]); ?> Num:<?php echo ($v["num"]); ?>"><?php echo ($v["menu_name"]); ?></option> -->
               <option id="sel_2"  value="<?php echo ($v["id"]); ?>"><?php echo ($v["menu_name"]); ?></option><?php endforeach; endif; ?>
         </select>
@@ -414,6 +464,20 @@
                                     <input type="date" name="" id="times" autofocus="true" required="true" style="width: 150px;height: 30px;margin-left: 5px;">
                                     <input type="date" name="" id="timee" autofocus="true" required="true" style="width: 150px;height: 30px;margin-left: 5px;">
                                    <input type="button" id="" value="查询" onclick="displaydata()" style="margin-left: 10px;width:60px; ">
+=======
+            <?php if(is_array($detail)): foreach($detail as $key=>$v): ?><!--<option value="Name:<?php echo ($v["menu_name"]); ?> Num:<?php echo ($v["num"]); ?>"><?php echo ($v["menu_name"]); ?></option>-->
+              <option value='<?php echo ($v["id"]); ?>'><?php echo ($v["menu_name"]); ?></option><?php endforeach; endif; ?>
+        </select>
+                                    <input type="date" name="" id="time" autofocus="true" required="true" style="width: 25%;height: auto;margin-left: 0px;">
+                                    <input type="button" id="timesubmit" value="查询" onclick="test()" style="margin-left: 0px;width:60px; ">
+
+                                    <br /> 
+                                    <hr style="margin-top: 13px; margin-bottom: 10px;"/>
+                                    &nbsp;&nbsp;查询某段时间菜品的销量：
+                                    <input type="date" name="" id="times" autofocus="true" required="true" style="width: 25%;height: auto;margin-left: 0px;">
+                                    <input type="date" name="" id="timee" autofocus="true" required="true" style="width: 25%;height: auto;margin-left: 0px;">
+                                   <input type="button" id="" value="查询" onclick="displaydata()" style="margin-left: 0px;width:60px; ">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                                    <br />
                                     <!--<select id="recent-time" style="margin-left: 10px;">
 			                            <option value="a">最近一周</option>
@@ -424,10 +488,17 @@
 		                            
                             </form>
                             <div style="margin: 5px auto 0;width: 70%;">
+<<<<<<< HEAD
                                 <button class="timebutton" id="week" value="a" onclick="aweek()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee;margin-right: 10px;">最近一周</button>
                                 <button class="timebutton" id="1month" value="b" onclick="onemonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近一个月</button>
                                 <button class="timebutton" id="3month" value="c" onclick="threemonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近三个月</button>
                                 <button class="timebutton" id="6month" value="d" onclick="sixmonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近六个月</button>
+=======
+                            	<button class="timebutton" id="week" value="a" onclick="aweek()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee;margin-right: 10px;">最近一周</button>
+		                        <button class="timebutton" id="1month" value="b" onclick="onemonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近一个月</button>
+		                        <button class="timebutton" id="3month" value="c" onclick="threemonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近三个月</button>
+		                        <button class="timebutton" id="6month" value="d" onclick="sixmonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近六个月</button>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                             </div>
                             </div>
                             <div>
@@ -440,13 +511,21 @@
                         </div>
 
                         <!-- 柱状图表部分 -->
+<<<<<<< HEAD
                         <div style="width: 635px;height: 455px;border:1px solid white;position: relative;top: 240px;margin-left: 10px;">
+=======
+                        <div style="width: 635px;height: 455px;border:1px solid white;position: relative;top: 250px;margin-left: 10px;">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
 
 
                             <div id="main" style="width: 620px;height: 450px;position: absolute;top: 40px;margin-left: 10px;">
                             </div>
+<<<<<<< HEAD
                             <script type="text/javascript" src="/cloud/Public/Admin/js/echarts.min.js"></script>
+=======
+                            <script type="text/javascript" src="/Cloud/Public/Admin/js/echarts.min.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                             <script type="text/javascript">
                                 var myChart = echarts.init(document.getElementById('main'));
                                 var option = {
@@ -534,6 +613,7 @@
                                 };
                                 myChart.setOption(option);
                             </script>
+<<<<<<< HEAD
                             <!-- <script type="text/javascript" src="/cloud/Public/Admin/js/zhu/jQuery.js"></script>
 <script type="text/javascript" src="/cloud/Public/Admin/js/zhu/jqplot.js"></script>
 <script type="text/javascript" src="/cloud/Public/Admin/js/zhu/jqplot/jquery.jqplot.min.js"></script>
@@ -554,6 +634,28 @@
 <link rel="stylesheet" type="text/css" href="/cloud/Public/Admin/js/jqplot/jquery.jqplot.min.css">
 <link rel="stylesheet" type="text/css" href="/cloud/Public/Admin/js/jqplot/examples/syntaxhighlighter/styles/shCoreDefault.min.css">
 <link rel="stylesheet" type="text/css" href="/cloud/Public/Admin/js/jqplot/examples/syntaxhighlighter/styles/shThemejqplotPlot.min.css">
+=======
+                            <!-- <script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jQuery.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/examples/syntaxhighlighter/scripts/shCore.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/examples/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/examples/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.logAxisRenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.canvasTextRenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.canvasAxisLabelrenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.dateAxisRenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.barRenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.pointLabels.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.dateaxisRenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/jqplot/plugins/jqplot.dateaxisRenderer.min.js"></script>
+<script type="text/javascript" src="/Cloud/Public/Admin/js/zhu/m_jqplot.js"></script>
+<link rel="stylesheet" type="text/css" href="/Cloud/Public/Admin/js/jqplot/jquery.jqplot.min.css">
+<link rel="stylesheet" type="text/css" href="/Cloud/Public/Admin/js/jqplot/examples/syntaxhighlighter/styles/shCoreDefault.min.css">
+<link rel="stylesheet" type="text/css" href="/Cloud/Public/Admin/js/jqplot/examples/syntaxhighlighter/styles/shThemejqplotPlot.min.css">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
 <script type="text/javascript">
     var data = [[24,15,36,27,38,29],[73,46,58,61,41]];
@@ -571,6 +673,7 @@
                         <script type="text/javascript">
                             	
                             function test() {
+<<<<<<< HEAD
                                 
                                 var h_id = document.getElementById('h_id').value;
                                 var menu_id=document.getElementById('sel_1').value;
@@ -605,6 +708,39 @@
                                         }
                           });
                      }
+=======
+                            	
+                            	var h_id = document.getElementById('h_id').value;
+								var menu_id=document.getElementById('sel_1').value;
+								var time=document.getElementById('time').value;
+								console.log(menu_id);
+								console.log(time);
+								
+                                 $.ajax({
+							        type: "post",
+							        dataType: "json",
+							        data: {
+							            h_id: h_id,
+							            menu_id:menu_id,
+							            time:time
+							        },
+							        url: "displaySingle",
+							        success: function(data) {
+		                                var msg = " ";
+		                                msg += menu_id;
+		                                msg += "　" + time;
+		                                msg += "\n销售量为:";
+		                                msg += cookmenuByDay[0];
+		                                msg += "\n销售额为:";
+		                                msg += cookmenuByDay[1];
+		                                alert(msg);
+		                             },
+		                             error: function() {
+								            alert(111);
+								        }
+                          });
+       				 }
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                         </script>
                     </div>
                 </div>
@@ -622,7 +758,11 @@
                             <thead>
                                 <tr style="background-color: rgb(248,248,248);border : 1px solid white;">
                                     <td>菜品</td>
+<<<<<<< HEAD
                                     <td class="numtd">数量&nbsp;<span class="triangle-up"></span>
+=======
+                                    <td class="numtd">数量 <span class="triangle-up"></span>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                                     	<div class="numsort">
                                     		<ul>
                                     			<li onclick="numsorttop()">销量从高到低</li>
@@ -631,7 +771,11 @@
                                     	</div>
                                     </td>
                                     <td>单价</td>
+<<<<<<< HEAD
                                     <td class="numtd">总销售额&nbsp;<span class="triangle-up"></span>
+=======
+                                    <td class="numtd">总销售额 <span class="triangle-up"></span>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                                     	<div class="pricesort">
                                     		<ul>
                                     			<li onclick="pricesorttop()">总销售额从高到低</li>
@@ -654,6 +798,12 @@
                     </div>
 
                 </div>
+<<<<<<< HEAD
+=======
+                <script>
+                	
+                </script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
 
 
@@ -713,13 +863,18 @@
 
 <!--[if !IE]> -->
 <script type="text/javascript">
+<<<<<<< HEAD
     window.jQuery || document.write("<script src='/cloud/Public/Admin/js/jquery.js'>" + "<" + "/script>");
+=======
+    window.jQuery || document.write("<script src='/Cloud/Public/Admin/js/jquery.js'>" + "<" + "/script>");
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 </script>
 
 <!-- <![endif]-->
 
 <!--[if IE]>
 <script type="text/javascript">
+<<<<<<< HEAD
     window.jQuery || document.write("<script src='/cloud/Public/Admin/js/jquery1x.js'>" + "<" + "/script>");
 </script>
 <![endif]-->
@@ -755,6 +910,43 @@
 <script src="/cloud/Public/Admin/js/ace/ace.widget-on-reload.js"></script>
 <script src="/cloud/Public/Admin/js/ace/ace.searchbox-autocomplete.js"></script>
 <script src="/cloud/Public/Admin/js/jquery-ui.js"></script>
+=======
+    window.jQuery || document.write("<script src='/Cloud/Public/Admin/js/jquery1x.js'>" + "<" + "/script>");
+</script>
+<![endif]-->
+<script type="text/javascript">
+    if ('ontouchstart' in document.documentElement) document.write("<script src='/Cloud/Public/Admin/js/jquery.mobile.custom.js'>" + "<" + "/script>");
+</script>
+<script src="/Cloud/Public/Admin/js/bootstrap.js"></script>
+
+<!-- page specific plugin scripts -->
+<script charset="utf-8" src="/Cloud/Public/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="/Cloud/Public/kindeditor/lang/zh_CN.js"></script>
+<script src="/Cloud/Public/Admin/js/bootbox.js"></script>
+<!-- ace scripts -->
+<script src="/Cloud/Public/Admin/js/ace/elements.scroller.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.colorpicker.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.fileinput.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.typeahead.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.wysiwyg.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.spinner.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.treeview.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.wizard.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.aside.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.ajax-content.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.touch-drag.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.sidebar.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.sidebar-scroll-1.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.submenu-hover.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.widget-box.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.settings.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.settings-rtl.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.settings-skin.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.widget-on-reload.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.searchbox-autocomplete.js"></script>
+<script src="/Cloud/Public/Admin/js/jquery-ui.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
     <!-- inline scripts related to this page -->
 </body>
 

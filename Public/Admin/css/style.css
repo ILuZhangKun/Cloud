@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sum_shopname{
 	height: 140px;
 	width: 620px;
@@ -8,4 +9,18 @@
 #saleDetail tr{
 	background-color: rgb(230,230,230);
 	border : 1px solid white;
+=======
+.sum_shopname {
+    height: 140px;
+    width: 620px;
+}
+
+.shopname ul li {
+    list-style-type: none;
+}
+
+#saleDetail tr {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid white;
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 }

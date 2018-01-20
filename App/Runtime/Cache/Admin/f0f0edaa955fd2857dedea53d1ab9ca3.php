@@ -10,6 +10,7 @@
     <meta name="description" content="<?php echo (C("description")); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
+<<<<<<< HEAD
     <link rel="stylesheet" href="/cloud/Public/Admin/css/box.css" />
     <link rel="stylesheet" href="/cloud/Public/Admin/css/style.css" />
     <!-- bootstrap & fontawesome -->
@@ -34,19 +35,55 @@
 
     <!--[if lte IE 9]>
     <link rel="stylesheet" href="/cloud/Public/Admin/css/ace-ie.css"/>
+=======
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/box.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/style.css" />
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/font-awesome.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/jquery-ui.css" />
+    <!-- page specific plugin styles -->
+
+    <!-- text fonts -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-fonts.css" />
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+    <link rel="icon" href="https://static.jianshukeji.com/highcharts/images/favicon.ico">
+
+    <!--ads add and show styles-->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/newLayout.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/newLayout1.css" />
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-part2.css" class="ace-main-stylesheet"/>
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-ie.css"/>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
     <![endif]-->
 
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
+<<<<<<< HEAD
     <script src="/cloud/Public/Admin/js/ace-extra.js"></script>
+=======
+    <script src="/Cloud/Public/Admin/js/ace-extra.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
     <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
 
     <!--[if lte IE 8]>
+<<<<<<< HEAD
     <script src="/cloud/Public/Admin/js/html5shiv.js"></script>
     <script src="/cloud/Public/Admin/js/respond.js"></script>
+=======
+    <script src="/Cloud/Public/Admin/js/html5shiv.js"></script>
+    <script src="/Cloud/Public/Admin/js/respond.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
     <![endif]-->
 </head>
 <body class="login-layout">
@@ -145,18 +182,30 @@
 
 <!--[if !IE]> -->
 <script type="text/javascript">
+<<<<<<< HEAD
     window.jQuery || document.write("<script src='/cloud/Public/Admin/js/jquery.js'>" + "<" + "/script>");
+=======
+    window.jQuery || document.write("<script src='/Cloud/Public/Admin/js/jquery.js'>" + "<" + "/script>");
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 </script>
 
 <!-- <![endif]-->
 
 <!--[if IE]>
 <script type="text/javascript">
+<<<<<<< HEAD
     window.jQuery || document.write("<script src='/cloud/Public/Admin/js/jquery1x.js'>" + "<" + "/script>");
 </script>
 <![endif]-->
 <script type="text/javascript">
     if ('ontouchstart' in document.documentElement) document.write("<script src='/cloud/Public/Admin/js/jquery.mobile.custom.js'>" + "<" + "/script>");
+=======
+    window.jQuery || document.write("<script src='/Cloud/Public/Admin/js/jquery1x.js'>" + "<" + "/script>");
+</script>
+<![endif]-->
+<script type="text/javascript">
+    if ('ontouchstart' in document.documentElement) document.write("<script src='/Cloud/Public/Admin/js/jquery.mobile.custom.js'>" + "<" + "/script>");
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 </script>
 
 <!-- inline scripts related to this page -->

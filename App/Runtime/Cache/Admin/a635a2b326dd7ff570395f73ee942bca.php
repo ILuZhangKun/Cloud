@@ -10,6 +10,7 @@
     <meta name="description" content="<?php echo (C("description")); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
+<<<<<<< HEAD
     <link rel="stylesheet" href="/cloud/Public/Admin/css/box.css" />
     <link rel="stylesheet" href="/cloud/Public/Admin/css/style.css" />
     <!-- bootstrap & fontawesome -->
@@ -34,17 +35,49 @@
 
     <!--[if lte IE 9]>
     <link rel="stylesheet" href="/cloud/Public/Admin/css/ace-ie.css"/>
+=======
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/box.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/style.css" />
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/font-awesome.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/jquery-ui.css" />
+    <!-- page specific plugin styles -->
+
+    <!-- text fonts -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-fonts.css" />
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+    <link rel="icon" href="https://static.jianshukeji.com/highcharts/images/favicon.ico">
+
+    <!--ads add and show styles-->
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/newLayout.css" />
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/newLayout1.css" />
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-part2.css" class="ace-main-stylesheet"/>
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/Cloud/Public/Admin/css/ace-ie.css"/>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
     <![endif]-->
 
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
+<<<<<<< HEAD
     <script src="/cloud/Public/Admin/js/ace-extra.js"></script>
+=======
+    <script src="/Cloud/Public/Admin/js/ace-extra.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 
     <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
 
     <!--[if lte IE 8]>
+<<<<<<< HEAD
     <script src="/cloud/Public/Admin/js/html5shiv.js"></script>
     <script src="/cloud/Public/Admin/js/respond.js"></script>
     <![endif]-->
@@ -53,6 +86,16 @@
 
 <body class="no-skin">
 	<!-- #section:basics/navbar.layout -->
+=======
+    <script src="/Cloud/Public/Admin/js/html5shiv.js"></script>
+    <script src="/Cloud/Public/Admin/js/respond.js"></script>
+    <![endif]-->
+</head>
+<link rel="stylesheet" href="/Cloud/Public/Admin/css/module.css" />
+
+<body class="no-skin">
+    <!-- #section:basics/navbar.layout -->
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 <div id="navbar" class="navbar navbar-default">
   <script type="text/javascript">
     try {
@@ -105,7 +148,11 @@
         </li>
         <li class="light-blue">
           <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+<<<<<<< HEAD
                             <img class="nav-user-photo" src="<?php if( $user["head"] == '' ): ?>/cloud/Public/Admin/avatars/avatar2.png
+=======
+                            <img class="nav-user-photo" src="<?php if( $user["head"] == '' ): ?>/Cloud/Public/Admin/avatars/avatar2.png
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                             <?php else: ?>
                             <?php echo ($user["head"]); endif; ?>" alt="<?php echo ($user["user"]); ?>" />
                             <span class="user-info">
@@ -150,6 +197,7 @@
 
 <!-- /section:basics/navbar.layout -->
 
+<<<<<<< HEAD
 	<div class="main-container" id="main-container">
 		<script type="text/javascript">
 			try {
@@ -158,6 +206,16 @@
 		</script>
 
 		    <!-- #section:basics/sidebar -->
+=======
+    <div class="main-container" id="main-container">
+        <script type="text/javascript">
+            try {
+                ace.settings.check('main-container', 'fixed')
+            } catch (e) {}
+        </script>
+
+            <!-- #section:basics/sidebar -->
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
     <div id="sidebar" class="sidebar responsive">
         <script type="text/javascript">
             try {
@@ -268,10 +326,17 @@
     </div>
 
     <!-- /section:basics/sidebar -->
+<<<<<<< HEAD
 		<div class="main-content">
 			<div class="main-content-inner">
 				<!-- #section:basics/content.breadcrumbs -->
 				    <div class="breadcrumbs" id="breadcrumbs">
+=======
+        <div class="main-content">
+            <div class="main-content-inner">
+                <!-- #section:basics/content.breadcrumbs -->
+                    <div class="breadcrumbs" id="breadcrumbs">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
         <script type="text/javascript">
             try {
                 ace.settings.check('breadcrumbs', 'fixed')
@@ -291,9 +356,15 @@
         </ul><!-- /.breadcrumb -->
     </div>
 
+<<<<<<< HEAD
 				<!-- /section:basics/content.breadcrumbs -->
 				<div class="page-content">
 					    <!-- #section:settings.box -->
+=======
+                <!-- /section:basics/content.breadcrumbs -->
+                <div class="page-content">
+                        <!-- #section:settings.box -->
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
     <!--<?php if($current["tips"] != ''): ?><div class="alert alert-block alert-success">
             <button type="button" class="close" data-dismiss="alert">
                 <i class="ace-icon fa fa-times"></i>
@@ -387,6 +458,7 @@
             </div><!-- /.pull-left -->
         </div><!-- /.ace-settings-box -->
     </div><!-- /.ace-settings-container -->
+<<<<<<< HEAD
 					<div class="row" style="overflow:hidden">
 						<div class="col-xs-12">
 							<!-- PAGE CONTENT BEGINS -->
@@ -428,12 +500,56 @@
 															<td>
 																<!--console.log(<?php echo ($v["adtype"]); ?>);-->
 																<!--<?php switch($$v["adtype"]): case "1": ?>娱乐<?php break;?>
+=======
+                    <div class="row" style="overflow:hidden">
+                        <div class="col-xs-12">
+                            <!-- PAGE CONTENT BEGINS -->
+                            <div class="row" style="overflow:hidden">
+                                <div class="data-table tableScroll">
+                                    <table cellspacing="0" class="adsListShow  table-striped " style="height:auto">
+                                        <thead>
+                                            <tr>
+                                                <th>ID(未提交)</th>
+                                                <th>审核状态</th>
+                                                <th>发布时间</th>
+                                                <th>结束时间</th>
+                                                <th>公司名称</th>
+                                                <th>广告类型</th>
+                                                <th>广告标题</th>
+                                                <!--轮播还是顶部滚动-->
+                                                <th>播放位置</th>
+                                                <th>详情页</th>
+                                                <!--<th>轮播次数</th>-->
+                                                <th>店铺介绍</th>
+                                                <th>电话</th>
+                                                <th>更多详情</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php if(is_array($list)): foreach($list as $key=>$v): if($v["is_submit"] == 0): if($v["is_delete"] == 0): ?><tr>
+                                                            <td><?php echo ($v["adnum"]); ?></td>
+                                                            <td>
+                                                                <a href="<?php echo U('adsedit');?>?adnum=<?php echo ($v["adnum"]); ?>">编辑</a>
+                                                                <a href="<?php echo U('adsdel');?>?adnum=<?php echo ($v["adnum"]); ?>">删除</a>
+                                                                <!--<a href="<?php echo U('adsedit');?>?adnum=<?php echo ($v["adnum"]); ?>">修改</a> |
+                                                        <a href="<?php echo U('adsdel');?>?adnum=<?php echo ($v["adnum"]); ?>">删除</a>-->
+
+                                                            </td>
+                                                            <td><?php echo ($v["starttime"]); ?></td>
+                                                            <td><?php echo ($v["endtime"]); ?></td>
+                                                            <td><?php echo ($v["adname"]); ?></td>
+                                                            <!--<td><?php echo ($v["adtype"]); ?></td>-->
+                                                            <td>
+                                                                <!--console.log(<?php echo ($v["adtype"]); ?>);-->
+                                                                <!--<?php switch($$v["adtype"]): case "1": ?>娱乐<?php break;?>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                                                             <?php case "2": ?>养生<?php break;?>
                                                             <?php case "3": ?>交通<?php break;?>
                                                             <?php case "4": ?>购物<?php break;?>
                                                             <?php case "5": ?>健身<?php break;?>
                                                             <?php case "6": ?>银行<?php break;?>
                                                             <?php default: ?>餐饮<?php endswitch;?>-->
+<<<<<<< HEAD
 																<?php if($v["adtype"] == 1): ?>娱乐
 																	<?php elseif($v["adtype"] == 2): ?>养生
 																	<?php elseif($v["adtype"] == 3): ?>交通
@@ -507,12 +623,88 @@
 															<td>
 																<!--console.log(<?php echo ($v["adtype"]); ?>);-->
 																<!--<?php switch($$v["adtype"]): case "1": ?>娱乐<?php break;?>
+=======
+                                                                <?php if($v["adtype"] == 1): ?>娱乐
+                                                                    <?php elseif($v["adtype"] == 2): ?>养生
+                                                                    <?php elseif($v["adtype"] == 3): ?>交通
+                                                                    <?php elseif($v["adtype"] == 4): ?>购物
+                                                                    <?php elseif($v["adtype"] == 5): ?>健身
+                                                                    <?php elseif($v["adtype"] == 6): ?>银行
+                                                                    <?php elseif($v["adtype"] == 7): ?>餐饮<?php endif; ?>
+                                                            </td>
+                                                            <td><?php echo ($v["adtitle"]); ?></td>
+                                                            <td>
+                                                                <?php if($v["vehicle"] == 0): ?>无
+                                                                    <?php elseif($v["vehicle"] == 1): ?>顶部滚动<?php endif; ?>
+                                                            </td>
+                                                            <td>
+                                                                <?php if($v["detail"] == 0): ?>有
+                                                                    <?php elseif($v["detail"] == 1): ?>无<?php endif; ?>
+                                                            </td>
+                                                            <!--<td><?php echo ($v["adshowcount"]); ?></td>-->
+                                                            <td><?php echo ($v["introduction"]); ?></td>
+                                                            <td><?php echo ($v["phone"]); ?></td>
+                                                            <td class="checkMoreDetail">点我查看
+                                                                <div class="moreDetailShow">
+                                                                    <p>广告编号:<?php echo ($v["adnum"]); ?></p>
+                                                                    <p>广告标题:<?php echo ($v["adtitle"]); ?> </p>
+                                                                    <p>广告内容:<?php echo ($v["adtext"]); ?></p>
+                                                                    <p>推广区域:
+                                                                        <?php if(is_array($v["ad_hotel"])): $i = 0; $__LIST__ = $v["ad_hotel"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$p): $mod = ($i % 2 );++$i; echo ($p["h_name"]); ?>&nbsp;<?php endforeach; endif; else: echo "" ;endif; ?>
+                                                                    </p>
+                                                                    <p>图片:<img src='<?php echo ($v["adpic"]); ?>' /> </p>
+                                                                    <p>店铺地址:<?php echo ($v["address"]); ?> </p>
+                                                                    <p>最新活动:<?php echo ($v["activity"]); ?></p>
+                                                                    <p>广告备注:<?php echo ($v["adremark"]); ?></p>
+
+                                                                </div>
+                                                            </td>
+                                                        </tr><?php endif; endif; endforeach; endif; ?>
+                                        </tbody>
+                                    </table>
+
+                                    <table cellspacing="0" class="adsListShow  table-striped " style="height:auto">
+                                        <thead>
+                                            <tr>
+                                                <th>ID(未审核)</th>
+                                                <th>审核状态</th>
+                                                <th>发布时间</th>
+                                                <th>结束时间</th>
+                                                <th>公司名称</th>
+                                                <th>广告类型</th>
+                                                <th>广告标题</th>
+                                                <!--轮播还是顶部滚动-->
+                                                <th>播放位置</th>
+                                                <th>详情页</th>
+                                                <!--<th>轮播次数</th>-->
+                                                <th>店铺介绍</th>
+                                                <th>电话</th>
+                                                <th>更多详情</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php if(is_array($list)): foreach($list as $key=>$v): if($v["is_submit"] == 1): if($v["is_delete"] == 0): if($v["adverify"] == 0): ?><tr>
+                                                                <td><?php echo ($v["adnum"]); ?></td>
+                                                                <td>未审核
+                                                                    <!--<a href="<?php echo U('adsedit');?>?adnum=<?php echo ($v["adnum"]); ?>">修改</a> |
+                                                        <a href="<?php echo U('adsdel');?>?adnum=<?php echo ($v["adnum"]); ?>">删除</a>-->
+
+                                                                </td>
+                                                                <td><?php echo ($v["starttime"]); ?></td>
+                                                                <td><?php echo ($v["endtime"]); ?></td>
+                                                                <td><?php echo ($v["adname"]); ?></td>
+                                                                <!--<td><?php echo ($v["adtype"]); ?></td>-->
+                                                                <td>
+                                                                    <!--console.log(<?php echo ($v["adtype"]); ?>);-->
+                                                                    <!--<?php switch($$v["adtype"]): case "1": ?>娱乐<?php break;?>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                                                             <?php case "2": ?>养生<?php break;?>
                                                             <?php case "3": ?>交通<?php break;?>
                                                             <?php case "4": ?>购物<?php break;?>
                                                             <?php case "5": ?>健身<?php break;?>
                                                             <?php case "6": ?>银行<?php break;?>
                                                             <?php default: ?>餐饮<?php endswitch;?>-->
+<<<<<<< HEAD
 																<?php if($v["adtype"] == 1): ?>娱乐
 																	<?php elseif($v["adtype"] == 2): ?>养生
 																	<?php elseif($v["adtype"] == 3): ?>交通
@@ -586,12 +778,90 @@
 															<td>
 																<!--console.log(<?php echo ($v["adtype"]); ?>);-->
 																<!--<?php switch($$v["adtype"]): case "1": ?>娱乐<?php break;?>
+=======
+                                                                    <?php if($v["adtype"] == 1): ?>娱乐
+                                                                        <?php elseif($v["adtype"] == 2): ?>养生
+                                                                        <?php elseif($v["adtype"] == 3): ?>交通
+                                                                        <?php elseif($v["adtype"] == 4): ?>购物
+                                                                        <?php elseif($v["adtype"] == 5): ?>健身
+                                                                        <?php elseif($v["adtype"] == 6): ?>银行
+                                                                        <?php elseif($v["adtype"] == 7): ?>餐饮<?php endif; ?>
+                                                                </td>
+                                                                <td><?php echo ($v["adtitle"]); ?></td>
+                                                                <td>
+                                                                    <?php if($v["vehicle"] == 0): ?>无
+                                                                        <?php elseif($v["vehicle"] == 1): ?>顶部滚动<?php endif; ?>
+                                                                </td>
+                                                                <td>
+                                                                    <?php if($v["detail"] == 0): ?>有
+                                                                        <?php elseif($v["detail"] == 1): ?>无<?php endif; ?>
+                                                                </td>
+                                                                <!--<td><?php echo ($v["adshowcount"]); ?></td>-->
+                                                                <td><?php echo ($v["introduction"]); ?></td>
+                                                                <td><?php echo ($v["phone"]); ?></td>
+                                                                <td class="checkMoreDetail">点我查看
+                                                                    <div class="moreDetailShow">
+                                                                        <p>广告编号:<?php echo ($v["adnum"]); ?></p>
+                                                                        <p>广告标题:<?php echo ($v["adtitle"]); ?> </p>
+                                                                        <p>广告内容:<?php echo ($v["adtext"]); ?></p>
+                                                                        <p>推广区域:
+                                                                            <?php if(is_array($v["ad_hotel"])): $i = 0; $__LIST__ = $v["ad_hotel"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$p): $mod = ($i % 2 );++$i; echo ($p["h_name"]); ?>&nbsp;<?php endforeach; endif; else: echo "" ;endif; ?>
+                                                                        </p>
+                                                                        <p>图片:<img src='<?php echo ($v["adpic"]); ?>' /> </p>
+                                                                        <p>店铺地址:<?php echo ($v["address"]); ?> </p>
+                                                                        <p>最新活动:<?php echo ($v["activity"]); ?></p>
+                                                                        <p>广告备注:<?php echo ($v["adremark"]); ?></p>
+
+                                                                    </div>
+                                                                </td>
+                                                            </tr><?php endif; endif; endif; endforeach; endif; ?>
+                                        </tbody>
+                                    </table>
+
+                                    <table cellspacing="0" class="adsListShow  table-striped " style="height:auto">
+                                        <thead>
+                                            <tr>
+                                                <th>ID(已审核)</th>
+                                                <th>审核状态</th>
+                                                <th>发布时间</th>
+                                                <th>结束时间</th>
+                                                <th>公司名称</th>
+                                                <th>广告类型</th>
+                                                <th>广告标题</th>
+                                                <!--轮播还是顶部滚动-->
+                                                <th>播放位置</th>
+                                                <th>详情页</th>
+                                                <!--<th>轮播次数</th>-->
+                                                <th>店铺介绍</th>
+                                                <th>电话</th>
+                                                <th>更多详情</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php if(is_array($list)): foreach($list as $key=>$v): if($v["is_submit"] == 1): if($v["is_delete"] == 0): if($v["adverify"] != 0): ?><tr>
+                                                                <td><?php echo ($v["adnum"]); ?></td>
+                                                                <td>
+                                                                    <!--<a href="<?php echo U('adsedit');?>?adnum=<?php echo ($v["adnum"]); ?>">修改</a> |
+                                                        <a href="<?php echo U('adsdel');?>?adnum=<?php echo ($v["adnum"]); ?>">删除</a>-->
+                                                                    <?php if($v["adverify"] == 1): ?><p style="color: darkgreen;">已通过</p>
+                                                                        <?php elseif($v["adverify"] == 2): ?>
+                                                                        <p style="color: red;">未通过</p><?php endif; ?>
+                                                                </td>
+                                                                <td><?php echo ($v["starttime"]); ?></td>
+                                                                <td><?php echo ($v["endtime"]); ?></td>
+                                                                <td><?php echo ($v["adname"]); ?></td>
+                                                                <!--<td><?php echo ($v["adtype"]); ?></td>-->
+                                                                <td>
+                                                                    <!--console.log(<?php echo ($v["adtype"]); ?>);-->
+                                                                    <!--<?php switch($$v["adtype"]): case "1": ?>娱乐<?php break;?>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                                                             <?php case "2": ?>养生<?php break;?>
                                                             <?php case "3": ?>交通<?php break;?>
                                                             <?php case "4": ?>购物<?php break;?>
                                                             <?php case "5": ?>健身<?php break;?>
                                                             <?php case "6": ?>银行<?php break;?>
                                                             <?php default: ?>餐饮<?php endswitch;?>-->
+<<<<<<< HEAD
 																<?php if($v["adtype"] == 1): ?>娱乐
 																	<?php elseif($v["adtype"] == 2): ?>养生
 																	<?php elseif($v["adtype"] == 3): ?>交通
@@ -680,12 +950,107 @@
 														<td>
 															<!--console.log(<?php echo ($v["adtype"]); ?>);-->
 															<!--<?php switch($$v["adtype"]): case "1": ?>娱乐<?php break;?>
+=======
+                                                                    <?php if($v["adtype"] == 1): ?>娱乐
+                                                                        <?php elseif($v["adtype"] == 2): ?>养生
+                                                                        <?php elseif($v["adtype"] == 3): ?>交通
+                                                                        <?php elseif($v["adtype"] == 4): ?>购物
+                                                                        <?php elseif($v["adtype"] == 5): ?>健身
+                                                                        <?php elseif($v["adtype"] == 6): ?>银行
+                                                                        <?php elseif($v["adtype"] == 7): ?>餐饮<?php endif; ?>
+                                                                </td>
+                                                                <td><?php echo ($v["adtitle"]); ?></td>
+                                                                <td>
+                                                                    <?php if($v["vehicle"] == 0): ?>无
+                                                                        <?php elseif($v["vehicle"] == 1): ?>顶部滚动<?php endif; ?>
+                                                                </td>
+                                                                <td>
+                                                                    <?php if($v["detail"] == 0): ?>有
+                                                                        <?php elseif($v["detail"] == 1): ?>无<?php endif; ?>
+                                                                </td>
+                                                                <!--<td><?php echo ($v["adshowcount"]); ?></td>-->
+                                                                <td><?php echo ($v["introduction"]); ?></td>
+                                                                <td><?php echo ($v["phone"]); ?></td>
+                                                                <td class="checkMoreDetail">点我查看
+                                                                    <div class="moreDetailShow">
+                                                                        <p>广告编号:<?php echo ($v["adnum"]); ?></p>
+                                                                        <p>广告标题:<?php echo ($v["adtitle"]); ?> </p>
+                                                                        <p>广告内容:<?php echo ($v["adtext"]); ?></p>
+                                                                        <p>推广区域:</p>
+                                                                        <p>图片:<img src='<?php echo ($v["adpic"]); ?>' /> </p>
+                                                                        <p>店铺地址:<?php echo ($v["address"]); ?> </p>
+                                                                        <p>最新活动:<?php echo ($v["activity"]); ?></p>
+                                                                        <p>广告备注:<?php echo ($v["adremark"]); ?></p>
+
+                                                                    </div>
+                                                                </td>
+                                                            </tr><?php endif; endif; endif; endforeach; endif; ?>
+                                        </tbody>
+                                    </table>
+
+                                    <table cellspacing="0" class="adsListShow  table-striped " style="height:auto">
+                                        <thead>
+                                            <tr>
+                                                <th>ID(已过期)</th>
+                                                <th>审核状态</th>
+                                                <th>发布时间</th>
+                                                <th>结束时间</th>
+                                                <th>公司名称</th>
+                                                <th>广告类型</th>
+                                                <th>广告标题</th>
+                                                <!--轮播还是顶部滚动-->
+                                                <th>播放位置</th>
+                                                <th>详情页</th>
+                                                <!--<th>轮播次数</th>-->
+                                                <th>店铺介绍</th>
+                                                <th>电话</th>
+                                                <th>更多详情</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php if(is_array($list)): foreach($list as $key=>$v): if($v["is_delete"] == 1): ?><tr>
+                                                        <td><?php echo ($v["adnum"]); ?></td>
+                                                        <td>
+
+                                                            <button class="activation" name="activation" onclick="show_Div(<?php echo ($v["adnum"]); ?>)">
+																激活
+															</button>
+                                                            <span> </span>
+
+                                                            <a id="del_ads" href="<?php echo U('adsdel');?>?adnum=<?php echo ($v["adnum"]); ?>">删除</a>
+                                                            <!--<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>-->
+                                                            <div id="actbutton" class="actbuttondiv">
+                                                                <div id="mydiv" class="actcontent">
+                                                                    <span>开始时间</span>
+                                                                    <input type="date" id="stime" name="starttime" />
+                                                                    <span>结束时间</span>
+                                                                    <input type="date" id="etime" name="endtime" />
+                                                                    <br />
+                                                                    <div class="closebutton">
+                                                                        <a href="" onclick="submit_Div()">确定</a>
+                                                                        <span>　</span>
+                                                                        <a onclick="close_Div()">关闭</a>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                            <!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
+                                                        </td>
+                                                        <td><?php echo ($v["starttime"]); ?></td>
+                                                        <td><?php echo ($v["endtime"]); ?></td>
+                                                        <td><?php echo ($v["adname"]); ?></td>
+                                                        <!--<td><?php echo ($v["adtype"]); ?></td>-->
+                                                        <td>
+                                                            <!--console.log(<?php echo ($v["adtype"]); ?>);-->
+                                                            <!--<?php switch($$v["adtype"]): case "1": ?>娱乐<?php break;?>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
                                                             <?php case "2": ?>养生<?php break;?>
                                                             <?php case "3": ?>交通<?php break;?>
                                                             <?php case "4": ?>购物<?php break;?>
                                                             <?php case "5": ?>健身<?php break;?>
                                                             <?php case "6": ?>银行<?php break;?>
                                                             <?php default: ?>餐饮<?php endswitch;?>-->
+<<<<<<< HEAD
 															<?php if($v["adtype"] == 1): ?>娱乐
 																<?php elseif($v["adtype"] == 2): ?>养生
 																<?php elseif($v["adtype"] == 3): ?>交通
@@ -737,6 +1102,61 @@
 	</div>
 	<!-- /.page-content -->
 	    <div class="footer">
+=======
+                                                            <?php if($v["adtype"] == 1): ?>娱乐
+                                                                <?php elseif($v["adtype"] == 2): ?>养生
+                                                                <?php elseif($v["adtype"] == 3): ?>交通
+                                                                <?php elseif($v["adtype"] == 4): ?>购物
+                                                                <?php elseif($v["adtype"] == 5): ?>健身
+                                                                <?php elseif($v["adtype"] == 6): ?>银行
+                                                                <?php elseif($v["adtype"] == 7): ?>餐饮<?php endif; ?>
+                                                        </td>
+                                                        <td><?php echo ($v["adtitle"]); ?></td>
+                                                        <td>
+                                                            <?php if($v["vehicle"] == 0): ?>无
+                                                                <?php elseif($v["vehicle"] == 1): ?>顶部滚动<?php endif; ?>
+                                                        </td>
+
+                                                        <td>
+                                                            <?php if($v["detail"] == 0): ?>有
+                                                                <?php elseif($v["detail"] == 1): ?>无<?php endif; ?>
+                                                        </td>
+                                                        <!--<td><?php echo ($v["adshowcount"]); ?></td>-->
+                                                        <td><?php echo ($v["introduction"]); ?></td>
+                                                        <td><?php echo ($v["phone"]); ?></td>
+                                                        <td class="checkMoreDetail">点我查看
+                                                            <div class="moreDetailShow">
+                                                                <p>广告编号:<?php echo ($v["adnum"]); ?></p>
+                                                                <p>广告标题:<?php echo ($v["adtitle"]); ?> </p>
+                                                                <p>广告内容:<?php echo ($v["adtext"]); ?></p>
+                                                                <p>推广区域:
+                                                                    <?php if(is_array($v["ad_hotel"])): $i = 0; $__LIST__ = $v["ad_hotel"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$p): $mod = ($i % 2 );++$i; echo ($p["h_name"]); ?>&nbsp;<?php endforeach; endif; else: echo "" ;endif; ?>
+                                                                </p>
+                                                                <p>图片:<img src='<?php echo ($v["adpic"]); ?>' /> </p>
+                                                                <p>店铺地址:<?php echo ($v["address"]); ?> </p>
+                                                                <p>最新活动:<?php echo ($v["activity"]); ?></p>
+                                                                <p>广告备注:<?php echo ($v["adremark"]); ?></p>
+                                                            </div>
+                                                        </td>
+                                                    </tr><?php endif; endforeach; endif; ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.page-content -->
+        <div class="footer">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
         <div class="footer-inner">
             <!-- #section:basics/footer -->
             <div class="footer-content">
@@ -752,17 +1172,26 @@
     <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
         <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
     </a>
+<<<<<<< HEAD
 	<!-- basic scripts -->
 
 <!--[if !IE]> -->
 <script type="text/javascript">
     window.jQuery || document.write("<script src='/cloud/Public/Admin/js/jquery.js'>" + "<" + "/script>");
+=======
+    <!-- basic scripts -->
+
+<!--[if !IE]> -->
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='/Cloud/Public/Admin/js/jquery.js'>" + "<" + "/script>");
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 </script>
 
 <!-- <![endif]-->
 
 <!--[if IE]>
 <script type="text/javascript">
+<<<<<<< HEAD
     window.jQuery || document.write("<script src='/cloud/Public/Admin/js/jquery1x.js'>" + "<" + "/script>");
 </script>
 <![endif]-->
@@ -830,6 +1259,77 @@
 	</script>
 
 	<!--<script type="text/javascript" src="/cloud/Public/Admin/js/pdjQuery/PCASClass.js"></script>
+=======
+    window.jQuery || document.write("<script src='/Cloud/Public/Admin/js/jquery1x.js'>" + "<" + "/script>");
+</script>
+<![endif]-->
+<script type="text/javascript">
+    if ('ontouchstart' in document.documentElement) document.write("<script src='/Cloud/Public/Admin/js/jquery.mobile.custom.js'>" + "<" + "/script>");
+</script>
+<script src="/Cloud/Public/Admin/js/bootstrap.js"></script>
+
+<!-- page specific plugin scripts -->
+<script charset="utf-8" src="/Cloud/Public/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="/Cloud/Public/kindeditor/lang/zh_CN.js"></script>
+<script src="/Cloud/Public/Admin/js/bootbox.js"></script>
+<!-- ace scripts -->
+<script src="/Cloud/Public/Admin/js/ace/elements.scroller.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.colorpicker.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.fileinput.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.typeahead.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.wysiwyg.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.spinner.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.treeview.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.wizard.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/elements.aside.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.ajax-content.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.touch-drag.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.sidebar.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.sidebar-scroll-1.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.submenu-hover.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.widget-box.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.settings.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.settings-rtl.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.settings-skin.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.widget-on-reload.js"></script>
+<script src="/Cloud/Public/Admin/js/ace/ace.searchbox-autocomplete.js"></script>
+<script src="/Cloud/Public/Admin/js/jquery-ui.js"></script>
+
+    <script>
+        function show_Div(obj) {
+            document.getElementById("actbutton").style.display = "block";
+            document.getElementById("mydiv").style.display = "block";
+
+            adn = obj;
+
+            //1.跳转到修改页面adsedit.html
+            //2.给后台传广告id
+            //将广告内容显示在修改页面中
+        }
+
+        function submit_Div() {
+            document.getElementById("actbutton").style.display = "none";
+            document.getElementById("mydiv").style.display = "none";
+
+
+            var stime = $('#stime').val();
+            var etime = $('#etime').val();
+            var time = stime + " " + etime;
+            var urltime = "<?php echo U('active');?>?adnum=" + adn + "&starttime=" + stime + "&endtime=" + etime;
+            alert(urltime);
+            $("a").attr("href", urltime);
+
+        }
+
+        function close_Div() {
+            document.getElementById("actbutton").style.display = "none";
+            document.getElementById("mydiv").style.display = "none";
+        }
+    </script>
+
+    <!--<script type="text/javascript" src="/Cloud/Public/Admin/js/pdjQuery/PCASClass.js"></script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 	<script language="javascript" defer>
 		new PCAS("province", "city", "area");
 	</script>-->

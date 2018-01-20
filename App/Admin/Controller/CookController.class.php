@@ -21,7 +21,10 @@ class CookController extends ComController{
       $org_id = $_SESSION["org_id"];
       $prefix = C('DB_PREFIX');
       $cook_style = D("Cook")->getStyleCountByOrgId($prefix,$org_id);
+<<<<<<< HEAD
       //获取菜系类型以及此菜系有多少菜
+=======
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
       // $all = M("cook_style")->where(array("org_id"=>2))->select(); //原始版本
       $all = M("cook_style")->where(array("is_delete"=>0))->select();
       // if($all['0']['is_delete'] == 1 or $all['0']['id'] == null){

@@ -26,9 +26,14 @@ class CookModel extends Model{
         // if($org_id!=0) $cook_style = M("cook_style")->where('org_id='.$org_id)->order('edit_time desc')->select();
         // return $cook_style;
         if($org_id!=0) $sql = "SELECT s.style_name, s.org_id,s.id, COUNT(m.id) AS num FROM {$prefix}cook_style s LEFT JOIN {$prefix}cook_menu m ON s.id=m.style_id WHERE s.org_id = {$org_id} AND m.is_delete = 0  group  BY s.id,s.org_id ORDER BY num DESC";
+<<<<<<< HEAD
         //dump($sql);
         return M("")->query($sql);
         
+=======
+        // dump($sql);die;
+        return M("")->query($sql);
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
     }
     /**
      * 新增菜系

@@ -14,7 +14,11 @@ $(document).ready(function() {
             }
             getOrgId();
             orgIds = $("#storeOrgId").val();
+<<<<<<< HEAD
             // console.log("getAllorg中orgIds:" + orgIds);
+=======
+            console.log("getAllorg中orgIds:" + orgIds);
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
         },
         error: function(data) {
             console.log("选择失败！");
@@ -33,8 +37,13 @@ $("#confirmAdsAdd").click(function() {
 $("#confirmAdsSave").click(function() {
     var issubmit = document.getElementById("is_submit");
     issubmit.value = "0";
+<<<<<<< HEAD
     $('#is_submit').value('0');
     $("#addInforForm").attr("action", "add");
+=======
+    // $('#is_submit').value('0');
+    //$("#addInforForm").attr("action", "add");
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
 });
 //取消选择机构
 $('#cancelBtn1').click(function() {
