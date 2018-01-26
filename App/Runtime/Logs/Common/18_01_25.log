@@ -1,0 +1,24 @@
+[ 2018-01-25T14:34:44+08:00 ] ::1 /Cloud/Public/Admin/js/function.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-25T15:11:04+08:00 ] ::1 /CLOud/queue/queue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.073004s ]
+ERR: 无法加载模块:Queue
+
+[ 2018-01-25T15:11:04+08:00 ] ::1 /CLOud/queue/queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.073004s ]
+ERR: 无法加载模块:Queue
+
+[ 2018-01-25T15:11:27+08:00 ] ::1 /cloud/queue/queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Queue
+

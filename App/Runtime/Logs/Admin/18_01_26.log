@@ -1,0 +1,749 @@
+[ 2018-01-26T09:48:07+08:00 ] ::1 /Cloud/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.135008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: current E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.472027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.472027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.603034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.603034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-01-26T09:48:11+08:00 ] ::1 /Cloud/index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-26T09:52:45+08:00 ] ::1 /Cloud/index.php/Admin/login/verify.html?1516931565427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T09:52:55+08:00 ] ::1 /Cloud/index.php/Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2018-01-26T09:53:28+08:00 ] ::1 /Cloud/index.php/Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T09:53:30+08:00 ] ::1 /Cloud/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: current E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T09:53:30+08:00 ] ::1 /Cloud/index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T09:53:40+08:00 ] ::1 /Cloud/index.php/Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.1170s ]
+SQL: SELECT `uid`,`user`,`org_id`,`h_id` FROM `cloud_member` WHERE `user` = '123' AND `password` = '36868f2f58d2ab890d352ace75b8184b' LIMIT 1   [ RunTime:0.0320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `cloud_log` [ RunTime:0.6070s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Common\function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT `user` FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `cloud_log` (`name`,`t`,`ip`,`log`) VALUES ('123','1516931620','::1','登录成功。') [ RunTime:0.0010s ]
+
+[ 2018-01-26T09:53:41+08:00 ] ::1 /Cloud/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=10 [ RunTime:0.1170s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=10 [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (101,106,105,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SELECT SUM(s.num) AS nums, o.org_id, o.h_id, s.*, m.menu_name FROM cloud_order o INNER JOIN cloud_order_sub s ON s.oid = o.id INNER JOIN cloud_cook_menu m ON m.id=s.menu_id WHERE o.org_id = 9 Group by menu_id ORDER BY nums DESC [ RunTime:0.2080s ]
+SQL: SELECT SUM(nums) nums FROM(SELECT SUM(s.num) AS nums, o.org_id, o.h_id, s.*, m.menu_name FROM cloud_order o INNER JOIN cloud_order_sub s ON s.oid = o.id INNER JOIN cloud_cook_menu m ON m.id=s.menu_id WHERE o.org_id = 9 Group by menu_id ORDER BY nums DESC LIMIT 5,0) AS A [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\StatisModel::getTotalByMonthByOrg(), called in E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php on line 20 and defined E:\xampp\htdocs\Cloud\App\Admin\Model\StatisModel.class.php 第 71 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Cloud\App\Admin\Model\StatisModel.class.php 第 72 行.
+SQL: SELECT IFNULL(h_name,'合计') AS h_name,
+      SUM(IF(year='201801',count,0)) AS month01,
+      SUM(IF(year='201802',count,0)) AS month02,
+      SUM(IF(year='201803',count,0)) AS month03,
+      SUM(IF(year='201804',count,0)) AS month04,
+      SUM(IF(year='201805',count,0)) AS month05,
+      SUM(IF(year='201806',count,0)) AS month06,
+      SUM(IF(year='201807',count,0)) AS month07,
+      SUM(IF(year='201808',count,0)) AS month08,
+      SUM(IF(year='201809',count,0)) AS month09,
+      SUM(IF(year='201810',count,0)) AS month10,
+      SUM(IF(year='{November}',count,0)) AS month11,
+      SUM(IF(year='201812',count,0)) AS month12,
+      SUM(IF(year='total',count,0)) AS total
+      FROM(
+          SELECT h_name,IFNULL(year,'total') AS year,SUM(count) AS count
+          FROM(
+            SELECT h_name,FROM_UNIXTIME(syn_time,'%Y%m')as year,SUM(o.total_money) count
+            FROM cloud_order o
+            JOIN cloud_hotel h ON h.id = o.h_id
+            WHERE FROM_UNIXTIME(syn_time,'%Y') = 2018
+            GROUP BY h_name,year
+            ) AS A
+          GROUP BY h_name,year
+          WITH ROLLUP
+          HAVING h_name IS NOT NULL
+            )AS B
+      GROUP BY h_name
+      WITH ROLLUP [ RunTime:0.0340s ]
+SQL: SELECT SUM(s.num) AS nums, o.org_id, o.h_id, s.*, m.menu_name FROM cloud_order o INNER JOIN cloud_order_sub s ON s.oid = o.id INNER JOIN cloud_cook_menu m ON m.id=s.menu_id WHERE o.org_id = 9 Group by menu_id ORDER BY nums DESC LIMIT 100 [ RunTime:0.0010s ]
+SQL: SELECT SUM(total_money) AS money, h.org_id,h.h_name FROM cloud_hotel h INNER JOIN cloud_order o ON o.h_id = h.id  WHERE h.org_id = 9 GROUP BY o.h_id ORDER BY money DESC LIMIT 1 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(s.id) AS nums, o.org_id, o.h_id, s.* ,m.menu_name FROM cloud_order o INNER JOIN cloud_order_sub s ON s.oid = o.id INNER JOIN cloud_cook_menu m ON m.id=s.menu_id WHERE o.org_id = 9 Group by menu_id ORDER BY nums ASC LIMIT 1 [ RunTime:0.0010s ]
+SQL: SELECT SUM(total_money) AS money, h.org_id,h.h_name FROM cloud_hotel h INNER JOIN cloud_order o ON o.h_id = h.id  WHERE h.org_id = 9 GROUP BY o.h_id ORDER BY money ASC LIMIT 1 [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\OrgModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\xampp\htdocs\Cloud\App\Admin\Model\OrgModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Admin\Model\OrgModel::delete() should be compatible with Think\Model::delete($options = Array) E:\xampp\htdocs\Cloud\App\Admin\Model\OrgModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `cloud_org` [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `cloud_hotel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_hotel` WHERE ( org_id=9 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_auth_group_access` WHERE ( uid = 10 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 60 行.
+
+[ 2018-01-26T09:53:42+08:00 ] ::1 /Cloud/index.php/Admin/Admanage/myadlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=10 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=10 [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Admanage/myadlist' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (101,106,105,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_ads` [ RunTime:0.1230s ]
+SQL: UPDATE `cloud_ads` SET `is_delete`='1' WHERE `endtime` < '2018-01-26' [ RunTime:0.0260s ]
+SQL: UPDATE `cloud_ads` SET `is_delete`='0' WHERE `endtime` > '2018-01-26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cloud_ads` WHERE ( uid=10 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ad_hotel E:\xampp\htdocs\Cloud\App\Admin\Controller\AdmanageController.class.php 第 149 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: adnum E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\a635a2b326dd7ff570395f73ee942bca.php 第 820 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.307017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.307017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T09:53:48+08:00 ] ::1 /Cloud/index.php/Admin/Admanage/myadlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=10 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=10 [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Admanage/myadlist' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (101,106,105,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_ads` [ RunTime:0.0070s ]
+SQL: UPDATE `cloud_ads` SET `is_delete`='1' WHERE `endtime` < '2018-01-26' [ RunTime:0.0030s ]
+SQL: UPDATE `cloud_ads` SET `is_delete`='0' WHERE `endtime` > '2018-01-26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cloud_ads` WHERE ( uid=10 )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: ad_hotel E:\xampp\htdocs\Cloud\App\Admin\Controller\AdmanageController.class.php 第 149 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: adnum E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\a635a2b326dd7ff570395f73ee942bca.php 第 820 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-26T09:53:49+08:00 ] ::1 /Cloud/index.php/Admin/Admanage/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=10 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=10 [ RunTime:0.0020s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Admanage/add' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (101,106,105,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant uniqid - assumed 'uniqid' E:\xampp\htdocs\Cloud\App\Admin\Controller\AdmanageController.class.php 第 283 行.
+SQL: SHOW COLUMNS FROM `cloud_ads_type` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `cloud_org` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_org` WHERE ( id>0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cloud_ads_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: typename E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\9bd46574c58ffeb34d93a834ddb9847e.php 第 451 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-26T09:53:51+08:00 ] ::1 /Cloud/index.php/Admin/Admanage/getAllOrg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=10 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=10 [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Admanage/getAllOrg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (101,106,105,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_org` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`org_name` FROM `cloud_org` WHERE ( id>0 )  [ RunTime:0.0000s ]
+
+[ 2018-01-26T09:55:02+08:00 ] ::1 /Cloud/index.php/Admin/logout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=10 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=10 [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Logout/index' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (101,106,105,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+
+[ 2018-01-26T09:55:02+08:00 ] ::1 /Cloud/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: current E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T09:55:02+08:00 ] ::1 /Cloud/index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-26T09:55:11+08:00 ] ::1 /Cloud/index.php/Admin/login/verify.html?1516931711045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T09:55:14+08:00 ] ::1 /Cloud/index.php/Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0060s ]
+SQL: SELECT `uid`,`user`,`org_id`,`h_id` FROM `cloud_member` WHERE `user` = 'ceshi' AND `password` = '36868f2f58d2ab890d352ace75b8184b' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\LoginController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `cloud_log` [ RunTime:0.0040s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Common\function.php 第 12 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0040s ]
+SQL: SELECT `user` FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cloud_log` (`name`,`t`,`ip`,`log`) VALUES ('ceshi','1516931714','::1','登录成功。') [ RunTime:0.0010s ]
+
+[ 2018-01-26T09:55:14+08:00 ] ::1 /Cloud/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=4 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=4 [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (1,99,98,97,66,78,79,74,73,72,67,80,81,84,93,94,90,91,92,13,15,16,20,21,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SELECT SUM(s.num) AS nums, o.org_id, o.h_id, s.*, m.menu_name FROM cloud_order o INNER JOIN cloud_order_sub s ON s.oid = o.id INNER JOIN cloud_cook_menu m ON m.id=s.menu_id WHERE o.org_id = 2 Group by menu_id ORDER BY nums DESC [ RunTime:0.0020s ]
+SQL: SELECT SUM(nums) nums FROM(SELECT SUM(s.num) AS nums, o.org_id, o.h_id, s.*, m.menu_name FROM cloud_order o INNER JOIN cloud_order_sub s ON s.oid = o.id INNER JOIN cloud_cook_menu m ON m.id=s.menu_id WHERE o.org_id = 2 Group by menu_id ORDER BY nums DESC LIMIT 5,16) AS A [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\StatisModel::getTotalByMonthByOrg(), called in E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php on line 20 and defined E:\xampp\htdocs\Cloud\App\Admin\Model\StatisModel.class.php 第 71 行.
+NOTIC: [8] Undefined variable: year E:\xampp\htdocs\Cloud\App\Admin\Model\StatisModel.class.php 第 72 行.
+SQL: SELECT IFNULL(h_name,'合计') AS h_name,
+      SUM(IF(year='201801',count,0)) AS month01,
+      SUM(IF(year='201802',count,0)) AS month02,
+      SUM(IF(year='201803',count,0)) AS month03,
+      SUM(IF(year='201804',count,0)) AS month04,
+      SUM(IF(year='201805',count,0)) AS month05,
+      SUM(IF(year='201806',count,0)) AS month06,
+      SUM(IF(year='201807',count,0)) AS month07,
+      SUM(IF(year='201808',count,0)) AS month08,
+      SUM(IF(year='201809',count,0)) AS month09,
+      SUM(IF(year='201810',count,0)) AS month10,
+      SUM(IF(year='{November}',count,0)) AS month11,
+      SUM(IF(year='201812',count,0)) AS month12,
+      SUM(IF(year='total',count,0)) AS total
+      FROM(
+          SELECT h_name,IFNULL(year,'total') AS year,SUM(count) AS count
+          FROM(
+            SELECT h_name,FROM_UNIXTIME(syn_time,'%Y%m')as year,SUM(o.total_money) count
+            FROM cloud_order o
+            JOIN cloud_hotel h ON h.id = o.h_id
+            WHERE FROM_UNIXTIME(syn_time,'%Y') = 2018
+            GROUP BY h_name,year
+            ) AS A
+          GROUP BY h_name,year
+          WITH ROLLUP
+          HAVING h_name IS NOT NULL
+            )AS B
+      GROUP BY h_name
+      WITH ROLLUP [ RunTime:0.0020s ]
+SQL: SELECT SUM(s.num) AS nums, o.org_id, o.h_id, s.*, m.menu_name FROM cloud_order o INNER JOIN cloud_order_sub s ON s.oid = o.id INNER JOIN cloud_cook_menu m ON m.id=s.menu_id WHERE o.org_id = 2 Group by menu_id ORDER BY nums DESC LIMIT 100 [ RunTime:0.0020s ]
+SQL: SELECT SUM(total_money) AS money, h.org_id,h.h_name FROM cloud_hotel h INNER JOIN cloud_order o ON o.h_id = h.id  WHERE h.org_id = 2 GROUP BY o.h_id ORDER BY money DESC LIMIT 1 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(s.id) AS nums, o.org_id, o.h_id, s.* ,m.menu_name FROM cloud_order o INNER JOIN cloud_order_sub s ON s.oid = o.id INNER JOIN cloud_cook_menu m ON m.id=s.menu_id WHERE o.org_id = 2 Group by menu_id ORDER BY nums ASC LIMIT 1 [ RunTime:0.0010s ]
+SQL: SELECT SUM(total_money) AS money, h.org_id,h.h_name FROM cloud_hotel h INNER JOIN cloud_order o ON o.h_id = h.id  WHERE h.org_id = 2 GROUP BY o.h_id ORDER BY money ASC LIMIT 1 [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\OrgModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\xampp\htdocs\Cloud\App\Admin\Model\OrgModel.class.php 第 79 行.
+NOTIC: [2048] Declaration of Admin\Model\OrgModel::delete() should be compatible with Think\Model::delete($options = Array) E:\xampp\htdocs\Cloud\App\Admin\Model\OrgModel.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `cloud_org` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cloud_hotel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_hotel` WHERE ( org_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_auth_group_access` WHERE ( uid = 4 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: group_id  E:\xampp\htdocs\Cloud\App\Admin\Model\OrgModel.class.php 第 65 行.
+NOTIC: [8] Undefined index: h_id E:\xampp\htdocs\Cloud\App\Admin\Model\OrgModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: data E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant menu_name - assumed 'menu_name' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 430 行.
+NOTIC: [8] Use of undefined constant h_name - assumed 'h_name' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 438 行.
+NOTIC: [8] Use of undefined constant menu_name - assumed 'menu_name' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 560 行.
+NOTIC: [8] Use of undefined constant menu_name - assumed 'menu_name' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 561 行.
+NOTIC: [8] Use of undefined constant menu_name - assumed 'menu_name' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 562 行.
+NOTIC: [8] Use of undefined constant menu_name - assumed 'menu_name' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 563 行.
+NOTIC: [8] Use of undefined constant menu_name - assumed 'menu_name' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 564 行.
+NOTIC: [8] Use of undefined constant menu_name - assumed 'menu_name' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 565 行.
+NOTIC: [8] Use of undefined constant nums - assumed 'nums' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 572 行.
+NOTIC: [8] Use of undefined constant nums - assumed 'nums' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 573 行.
+NOTIC: [8] Use of undefined constant nums - assumed 'nums' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 574 行.
+NOTIC: [8] Use of undefined constant nums - assumed 'nums' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 575 行.
+NOTIC: [8] Use of undefined constant nums - assumed 'nums' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 576 行.
+NOTIC: [8] Use of undefined constant nums - assumed 'nums' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 577 行.
+NOTIC: [8] Use of undefined constant nums - assumed 'nums' E:\xampp\htdocs\Cloud\App\Runtime\Cache\Admin\742c860896b25e88c1c65c533911b85d.php 第 578 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T09:55:17+08:00 ] ::1 /Cloud/index.php/Admin/Index/displayHotel.html?h_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=4 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=4 [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Index/displayHotel' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (1,99,98,97,66,78,79,74,73,72,67,80,81,84,93,94,90,91,92,13,15,16,20,21,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: 
+      SELECT cm.id, cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1514736000 AND 1546272000
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cloud_hotel` [ RunTime:0.0040s ]
+SQL: SELECT `h_name` FROM `cloud_hotel` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: hotelDaily E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-26T10:04:30+08:00 ] ::1 /Cloud/index.php/Admin/Index/searchHotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=4 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=4 [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Index/searchHotel' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (1,99,98,97,66,78,79,74,73,72,67,80,81,84,93,94,90,91,92,13,15,16,20,21,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: times E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: timee E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 141 行.
+SQL: 
+      SELECT cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1516327470 AND 1516932270
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0020s ]
+SQL: 
+      SELECT cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1516327470 AND 1516932270
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0010s ]
+
+[ 2018-01-26T10:04:31+08:00 ] ::1 /Cloud/index.php/Admin/Index/searchHotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=4 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=4 [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Index/searchHotel' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (1,99,98,97,66,78,79,74,73,72,67,80,81,84,93,94,90,91,92,13,15,16,20,21,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: times E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: timee E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 141 行.
+SQL: 
+      SELECT cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1514340271 AND 1516932271
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0030s ]
+SQL: 
+      SELECT cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1514340271 AND 1516932271
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0010s ]
+
+[ 2018-01-26T10:04:32+08:00 ] ::1 /Cloud/index.php/Admin/Index/searchHotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=4 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=4 [ RunTime:0.0020s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Index/searchHotel' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (1,99,98,97,66,78,79,74,73,72,67,80,81,84,93,94,90,91,92,13,15,16,20,21,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: times E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: timee E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 141 行.
+SQL: 
+      SELECT cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1509156271 AND 1516932271
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0020s ]
+SQL: 
+      SELECT cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1509156271 AND 1516932271
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0040s ]
+
+[ 2018-01-26T10:04:32+08:00 ] ::1 /Cloud/index.php/Admin/Index/searchHotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM cloud_auth_group g left join cloud_auth_group_access a on g.id=a.group_id where a.uid=4 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cloud_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cloud_member` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT title FROM cloud_auth_group_access ga LEFT JOIN cloud_auth_group g ON ga.group_id=g.id where uid=4 [ RunTime:0.0020s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM cloud_auth_rule s left join cloud_auth_rule p on p.id=s.pid where s.name='Index/searchHotel' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\Cloud\App\Admin\Controller\ComController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `cloud_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `cloud_auth_rule` WHERE ( islink=1 AND id in (1,99,98,97,66,78,79,74,73,72,67,80,81,84,93,94,90,91,92,13,15,16,20,21,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: times E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: timee E:\xampp\htdocs\Cloud\App\Admin\Controller\IndexController.class.php 第 141 行.
+SQL: 
+      SELECT cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1501380272 AND 1516932272
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0020s ]
+SQL: 
+      SELECT cm.menu_name, cm.price price, IFNULL(temp.num,'0') num, IFNULL(price*num,'0') total 
+      FROM( 
+            SELECT cm.id,cm.menu_name,SUM(num) num
+            FROM cloud_cook_menu cm
+            LEFT JOIN cloud_order_sub os ON cm.id = os.menu_id
+            LEFT JOIN cloud_order o ON o.id = os.oid
+            WHERE o.h_id = 13 and syn_time BETWEEN 1501380272 AND 1516932272
+            GROUP BY menu_name
+          ) AS temp
+
+      RIGHT JOIN cloud_cook_menu cm ON cm.id = temp.id
+
+      WHERE cm.org_id = 2
+
+      ORDER BY length(num) DESC,num DESC
+     [ RunTime:0.0010s ]
+
