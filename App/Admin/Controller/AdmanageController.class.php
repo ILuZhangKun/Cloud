@@ -21,12 +21,21 @@ class AdmanageController extends ComController
 		$this->display();
 	}
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 	public function testWechat()
 	{
 		$data=I('name');
 		$this->ajaxReturn('你好'+$data);
 	}
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 	//修改广告类型
 	public function edit()
 	{
@@ -99,6 +108,10 @@ class AdmanageController extends ComController
 	{
 		$adnum = I("adnum");
 		$data["adverify"] = 1;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 		$adModel=new \Admin\Model\AdmanageModel();
 		$judge=$adModel->upOrgAdVersion($adnum);
 		if($judge)
@@ -119,6 +132,15 @@ class AdmanageController extends ComController
 		$this->assign("list",$Ads_list);
 		$this->error("广告审核失败，未同步到餐厅端！请联系客服人员。","adlist1.0");
 		}		
+<<<<<<< HEAD
+=======
+=======
+		$user = M('ads')->where("adnum = $adnum")->save($data);
+		$Ads_list = M("ads")->select();
+		$this->assign("meta_title","广告内容列表");
+		$this->assign("list",$Ads_list)->display("adlist1.0");		
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 	}
 
 
@@ -161,6 +183,10 @@ class AdmanageController extends ComController
 	//激活广告
 	public function active()
 	{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 		$where['adnum'] = I("adnum");
 		$data["starttime"]=I('starttime');
 		$data["endtime"]=I('endtime');
@@ -176,6 +202,21 @@ class AdmanageController extends ComController
 
 
 		//获取所有机构
+<<<<<<< HEAD
+=======
+=======
+		$adnum = I("adnum");
+		$data['starttime'] = I("starttime");
+		$data['endtime'] = I("endtime");
+		$data['is_submit']=1;
+		$data['adverify']=0;
+		$user = M('ads')->where("adnum = {$adnum}")->save($data);
+		$this->success("激活成功！",U('myadlist'));
+	}
+
+	//获取所有机构
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 	public function getAllOrg(){
 		$m=M('org');
 		// $editlist = M("ads")->where("adnum = $adnum")->find();
@@ -285,6 +326,10 @@ class AdmanageController extends ComController
         // $upload->thumbRemoveOrigin = true; 
         // dump($upload);die;
         
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 		if(!IS_POST){
 			$m=M('ads_type');
 			$n=M('org');
@@ -295,6 +340,28 @@ class AdmanageController extends ComController
 			$this->assign("meta_title","新增广告");
 			$this->display("add");
 		}							
+<<<<<<< HEAD
+=======
+=======
+		// if(!IS_POST){
+		// 	$m=M('ads_type');
+		// 	$data=$m->select();
+		// 	$this->assign('types',$data);
+		// 	$this->assign("meta_title","新增广告");
+		// 	$this->display("add");
+		// }
+		if(!IS_POST){
+			$m=M('ads_type');
+			$m2=M('org');
+			$data=$m->select();
+			$data2=$m2->where('id!=0')->select();
+			$this->assign('types',$data);
+			$this->assign('org',$data2);
+			$this->assign("meta_title","新增广告");
+			$this->display("add");
+		}
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 		else{
 			if(!$upload->upload()){ 
 	            //捕获上传异常 
@@ -344,11 +411,32 @@ class AdmanageController extends ComController
 			$data["introduction"] = I("introduction");
 			$data["activity"] = I("activity");
 			$data["phone"] = I("phone");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 			$data["vehicle"] = I("vehicle");
 			$data["detail"] = I("detail");
 			$data["edit_time"] = time();
 			$data["is_submit"] =I("is_submit");
 			$data["ad_hotel"]=I("storeHotelId");
+<<<<<<< HEAD
+=======
+=======
+			if(I("vehicle")=="")
+				$data["vehicle"] =0;
+			else 
+				$data["vehicle"] = I("vehicle");
+			if(I("detail")=="")
+				$data["detail"] =1;
+			else 
+				$data["detail"] = I("detail");
+			$data["edit_time"] = time();
+			$data["is_submit"] =I("is_submit");
+			$data["ad_hotel"]=I("storeHotelId");
+			
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 			//SaveConfig("adVersion",array("val"=>$data["edit_time"]));
 			if(M("ads")->add($data)) {
 					if($data["is_submit"]==1)
@@ -364,9 +452,18 @@ class AdmanageController extends ComController
 				}
 	}
 } 
+<<<<<<< HEAD
 	
 
 
+=======
+<<<<<<< HEAD
+	
+
+
+=======
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 
 	//修改广告信息
 	public function adsedit(){
@@ -405,8 +502,17 @@ class AdmanageController extends ComController
 			// dump($editlist);die;
 			$this->assign("list",$editlist);			
 			$this->display("adsedit");
+<<<<<<< HEAD
 		}
 		else{
+=======
+<<<<<<< HEAD
+		}
+		else{
+=======
+		}else{
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 			if(!$upload->upload()){ 
 				// echo 111;die;
 	            //捕获上传异常 
@@ -477,9 +583,20 @@ class AdmanageController extends ComController
 	{
 		$adnum = I("adnum");
 		$user = M('ads')->where("adnum = $adnum")->delete();
+<<<<<<< HEAD
 		$this->success("删除成功！",U('Admanage/myadlist'));
 	}
 
+=======
+<<<<<<< HEAD
+		$this->success("删除成功！",U('Admanage/myadlist'));
+	}
+
+=======
+		$this->success("删除成功！",U('myadlist'));
+	}
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 	
 
 }

@@ -29,12 +29,24 @@
                                 >&nbsp;{$h_name} &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                                 <input type="button" value="返回" name="" onclick="window.history.back(); " style="height: 20px;width: 40px;margin-top: 7px;line-height: 17px;border: 1px solid white;background-color: transparent;border-radius: 8px;">
                             </div>
+<<<<<<< HEAD
                             <div style="position: absolute;top: 40px;margin-left: 25px;">
+=======
+<<<<<<< HEAD
+                            <div style="position: absolute;top: 40px;margin-left: 25px;">
+=======
+                            <div style="position: absolute;top: 40px;width: 100%;">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
                                 <form action="" method="post">
                                     &nbsp;&nbsp;查询某日菜品的销量：
                                     <select name="resname" onchange="" id="sel_1">
             <option value="0" selected="selected">------请选择菜品------</option>
             <foreach name="detail" item="v">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 
               <!-- <option value="Name:{$v.menu_name} Num:{$v.num}">{$v.menu_name}</option> -->
               <option id="sel_2"  value="{$v.id}">{$v.menu_name}</option>
@@ -49,6 +61,24 @@
                                     <input type="date" name="" id="times" autofocus="true" required="true" style="width: 150px;height: 30px;margin-left: 5px;">
                                     <input type="date" name="" id="timee" autofocus="true" required="true" style="width: 150px;height: 30px;margin-left: 5px;">
                                    <input type="button" id="" value="查询" onclick="displaydata()" style="margin-left: 10px;width:60px; ">
+<<<<<<< HEAD
+=======
+=======
+              <!--<option value="Name:{$v.menu_name} Num:{$v.num}">{$v.menu_name}</option>-->
+              <option value='{$v.id}'>{$v.menu_name}</option>
+            </foreach>
+        </select>
+                                    <input type="date" name="" id="time" autofocus="true" required="true" style="width: 25%;height: auto;margin-left: 0px;">
+                                    <input type="button" id="timesubmit" value="查询" onclick="test()" style="margin-left: 0px;width:60px; ">
+
+                                    <br /> 
+                                    <hr style="margin-top: 13px; margin-bottom: 10px;"/>
+                                    &nbsp;&nbsp;查询某段时间菜品的销量：
+                                    <input type="date" name="" id="times" autofocus="true" required="true" style="width: 25%;height: auto;margin-left: 0px;">
+                                    <input type="date" name="" id="timee" autofocus="true" required="true" style="width: 25%;height: auto;margin-left: 0px;">
+                                   <input type="button" id="" value="查询" onclick="displaydata()" style="margin-left: 0px;width:60px; ">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
                                    <br />
                                     <!--<select id="recent-time" style="margin-left: 10px;">
 			                            <option value="a">最近一周</option>
@@ -59,10 +89,23 @@
 		                            
                             </form>
                             <div style="margin: 5px auto 0;width: 70%;">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
                                 <button class="timebutton" id="week" value="a" onclick="aweek()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee;margin-right: 10px;">最近一周</button>
                                 <button class="timebutton" id="1month" value="b" onclick="onemonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近一个月</button>
                                 <button class="timebutton" id="3month" value="c" onclick="threemonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近三个月</button>
                                 <button class="timebutton" id="6month" value="d" onclick="sixmonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近六个月</button>
+<<<<<<< HEAD
+=======
+=======
+                            	<button class="timebutton" id="week" value="a" onclick="aweek()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee;margin-right: 10px;">最近一周</button>
+		                        <button class="timebutton" id="1month" value="b" onclick="onemonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近一个月</button>
+		                        <button class="timebutton" id="3month" value="c" onclick="threemonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近三个月</button>
+		                        <button class="timebutton" id="6month" value="d" onclick="sixmonth()" style="width: 20%;height: 28px;padding: 2px 5px 2px 5px; margin-top: 6px; background: #e0eeee;border-radius: 5px;border: 1px solid #e0eeee; margin-right: 10px;">最近六个月</button>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
                             </div>
                             </div>
                             <div>
@@ -75,7 +118,15 @@
                         </div>
 
                         <!-- 柱状图表部分 -->
+<<<<<<< HEAD
                         <div style="width: 635px;height: 455px;border:1px solid white;position: relative;top: 240px;margin-left: 10px;">
+=======
+<<<<<<< HEAD
+                        <div style="width: 635px;height: 455px;border:1px solid white;position: relative;top: 240px;margin-left: 10px;">
+=======
+                        <div style="width: 635px;height: 455px;border:1px solid white;position: relative;top: 250px;margin-left: 10px;">
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 
 
 
@@ -206,6 +257,10 @@
                         <script type="text/javascript">
                             	
                             function test() {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
                                 
                                 var h_id = document.getElementById('h_id').value;
                                 var menu_id=document.getElementById('sel_1').value;
@@ -240,6 +295,42 @@
                                         }
                           });
                      }
+<<<<<<< HEAD
+=======
+=======
+                            	
+                            	var h_id = document.getElementById('h_id').value;
+								var menu_id=document.getElementById('sel_1').value;
+								var time=document.getElementById('time').value;
+								console.log(menu_id);
+								console.log(time);
+								
+                                 $.ajax({
+							        type: "post",
+							        dataType: "json",
+							        data: {
+							            h_id: h_id,
+							            menu_id:menu_id,
+							            time:time
+							        },
+							        url: "displaySingle",
+							        success: function(data) {
+		                                var msg = " ";
+		                                msg += menu_id;
+		                                msg += "　" + time;
+		                                msg += "\n销售量为:";
+		                                msg += cookmenuByDay[0];
+		                                msg += "\n销售额为:";
+		                                msg += cookmenuByDay[1];
+		                                alert(msg);
+		                             },
+		                             error: function() {
+								            alert(111);
+								        }
+                          });
+       				 }
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
                         </script>
                     </div>
                 </div>
@@ -257,7 +348,15 @@
                             <thead>
                                 <tr style="background-color: rgb(248,248,248);border : 1px solid white;">
                                     <td>菜品</td>
+<<<<<<< HEAD
                                     <td class="numtd">数量&nbsp;<span class="triangle-up"></span>
+=======
+<<<<<<< HEAD
+                                    <td class="numtd">数量&nbsp;<span class="triangle-up"></span>
+=======
+                                    <td class="numtd">数量 <span class="triangle-up"></span>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
                                     	<div class="numsort">
                                     		<ul>
                                     			<li onclick="numsorttop()">销量从高到低</li>
@@ -266,7 +365,15 @@
                                     	</div>
                                     </td>
                                     <td>单价</td>
+<<<<<<< HEAD
                                     <td class="numtd">总销售额&nbsp;<span class="triangle-up"></span>
+=======
+<<<<<<< HEAD
+                                    <td class="numtd">总销售额&nbsp;<span class="triangle-up"></span>
+=======
+                                    <td class="numtd">总销售额 <span class="triangle-up"></span>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
                                     	<div class="pricesort">
                                     		<ul>
                                     			<li onclick="pricesorttop()">总销售额从高到低</li>
@@ -291,6 +398,15 @@
                     </div>
 
                 </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                <script>
+                	
+                </script>
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 
 
 

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 .sum_shopname{
 	height: 140px;
 	width: 620px;
@@ -8,4 +12,21 @@
 #saleDetail tr{
 	background-color: rgb(230,230,230);
 	border : 1px solid white;
+<<<<<<< HEAD
+=======
+=======
+.sum_shopname {
+    height: 140px;
+    width: 620px;
+}
+
+.shopname ul li {
+    list-style-type: none;
+}
+
+#saleDetail tr {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid white;
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 }

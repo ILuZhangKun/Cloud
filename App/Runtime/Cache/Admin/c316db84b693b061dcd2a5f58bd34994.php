@@ -15,16 +15,28 @@
 	</style>
     <!--[if !IE]> -->
 		<script type="text/javascript">
+<<<<<<< HEAD
 			window.jQuery || document.write("<script src='/Cloud/Public/Admin/js/jquery.js'>"+"<"+"/script>");
+=======
+			window.jQuery || document.write("<script src='/cloud/Public/Admin/js/jquery.js'>"+"<"+"/script>");
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 		</script>
 		<!-- <![endif]-->
 		<!--[if IE]>
 		<script type="text/javascript">
+<<<<<<< HEAD
 		 window.jQuery || document.write("<script src='/Cloud/Public/Admin/js/jquery1x.js'>"+"<"+"/script>");
 		</script>
 		<![endif]-->
 		<script type="text/javascript">
 			if('ontouchstart' in document.documentElement) document.write("<script src='/Cloud/Public/Admin/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+=======
+		 window.jQuery || document.write("<script src='/cloud/Public/Admin/js/jquery1x.js'>"+"<"+"/script>");
+		</script>
+		<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='/cloud/Public/Admin/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 		</script>
 </head>
 
@@ -34,7 +46,11 @@
         <input type="hidden" value="<?php echo ($Height); ?>" name="Height">
         <input type="hidden" value="<?php echo ($BackCall); ?>" name="BackCall">
         <div class="uploadpic">
+<<<<<<< HEAD
 		<img id="ImgPr" src="<?php if($Img == ''): ?>/Cloud/Public/Admin/images/up.jpg<?php else: echo ($Img); endif; ?>"  width="<?php echo ($Width); ?>" height="<?php echo ($Height); ?>">
+=======
+		<img id="ImgPr" src="<?php if($Img == ''): ?>/cloud/Public/Admin/images/up.jpg<?php else: echo ($Img); endif; ?>"  width="<?php echo ($Width); ?>" height="<?php echo ($Height); ?>">
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
         <div class="uploadtext">上传</div>
 			<div class="inputfile" title="点击上传图片">
 				<input type="file" name="img" id="uploadicon" value="upload"/>

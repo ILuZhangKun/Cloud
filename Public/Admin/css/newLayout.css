@@ -68,7 +68,10 @@ thead {
     height: 650px;
     /*height:auto;*/
     overflow-y: hidden;
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 }
 
 .adsListShow {
@@ -88,7 +91,10 @@ thead {
 .adsListShow tbody {
     display: block;
     overflow-y: scroll;
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
     height: 100%;
     max-height: 300px;
 }
@@ -229,7 +235,10 @@ thead {
     /*border: 1px solid #333!important;*/
     display: block!important;
     overflow-y: hidden;
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
     /*position: absolute;*/
     position: relative;
     /*top: 50%;
@@ -261,7 +270,10 @@ thead {
     border-radius: 5px;
     display: block;
     overflow-y: scroll;
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
     padding-left: 10px;
 }
 
@@ -276,7 +288,11 @@ thead {
 }
 
 #slHotelShow {
+<<<<<<< HEAD
     height: 200px;
+=======
+    height: 205px;
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
     margin-top: -10px;
 }
 
@@ -488,6 +504,7 @@ button.btn.btn-return:forcus {
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 
 /*ceshi统计*/
 
@@ -543,3 +560,50 @@ ul li {
     top: 1px;
     border-bottom: 2px;
 }
+=======
+/*ceshi统计*/
+hr{
+	border-top: 1px solid #8DB6CD;
+}
+
+/*cloud统计表格排序按钮*/
+.numsort,.pricesort{
+	display: none;
+}
+.numtd:hover .numsort{
+	display: block !important;
+	position: absolute;
+	width: auto;
+	height: auto;
+	font-size: auto;
+	top: 15px;
+	padding: 5px;
+	border: 1px solid #E8E8E8;
+	background-color: white;
+}
+.numtd:hover .pricesort{
+	display: block !important;
+	position: absolute;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	top: 15px;
+	padding: 5px;
+	border: 1px solid #E8E8E8;
+	background-color: white;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+}
+ul li{
+	cursor: pointer;
+}
+.triangle-up {
+        display: inline-block;
+        border: 5px solid #FFFFFF;
+        border-top-color: #285E8E;
+        top: 1px;
+        border-bottom: 2px;
+    }
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3

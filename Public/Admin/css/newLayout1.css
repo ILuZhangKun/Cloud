@@ -1,7 +1,15 @@
 /**
  * 描    述：		定义广告相关的组件样式
  * 作用范围: 		广告模块
+<<<<<<< HEAD
  * 组件：	广告信息添加，时间地点插件，表格，浮层
+=======
+<<<<<<< HEAD
+ * 组件：	广告信息添加，时间地点插件，表格，浮层
+=======
+ * 组件：	广告信息添加，时间地点插件，表格，浮层，地区匹配餐厅
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
  * 模块搜索关键字： =
  * 作者：张琨 杨玥
  */
@@ -11,14 +19,54 @@
 ------------------------------------------ */
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+/*张琨：分类选择推广餐厅*/
+
+.areas {
+    /* display: none; */
+    margin-top: 2px;
+}
+
+.orgs {
+    display: none;
+    margin-top: 2px;
+}
+
+#orgAllChoose,
+#hotelAllChoose {
+    margin-left: 25px;
+}
+
+#hotel {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 /*Kun:广告列表展示*/
 
 .data-table {
     table-layout: fixed;
 }
+<<<<<<< HEAD
 .data-table thead tr th{
     background: #36648B;
 }
+=======
+<<<<<<< HEAD
+.data-table thead tr th{
+    background: #36648B;
+}
+=======
+
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 .data-table thead tr th,
 .data-table tbody tr td {
     white-space: nowrap;
@@ -32,8 +80,18 @@
     padding: 2px 5px;
 }
 
+<<<<<<< HEAD
 tbody{
 	margin-bottom: 10px;
+=======
+<<<<<<< HEAD
+tbody{
+	margin-bottom: 10px;
+=======
+thead {
+    margin-top: 10px;
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 }
 
 .data-table tbody tr td {
@@ -43,9 +101,21 @@ tbody{
 }
 
 .tableScroll {
+<<<<<<< HEAD
 	height: 750px;
     overflow-y: hidden;
     
+=======
+<<<<<<< HEAD
+	height: 750px;
+    overflow-y: hidden;
+    
+=======
+    height: 650px;
+    /*height:auto;*/
+    overflow-y: hidden;
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 }
 
 .adsListShow {
@@ -66,7 +136,15 @@ tbody{
     display: block;
     overflow-y: scroll;
     height: 100%;
+<<<<<<< HEAD
     max-height: 220px;
+=======
+<<<<<<< HEAD
+    max-height: 220px;
+=======
+    max-height: 300px;
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 }
 
 
@@ -146,6 +224,256 @@ tbody{
 }
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+/*选择餐厅按钮*/
+
+#hotelChooseBtn {
+    background-color: #18A665;
+    outline: none;
+    border-radius: 5px;
+}
+
+#hotelChooseBtn:hover,
+#hotelChooseBtn:focus {
+    background-color: #006600;
+}
+
+#hotelDisplayChoose,
+#orgDisplayChoose,
+#selectedHotel {
+    display: none;
+}
+
+#addressTable {
+    position: relative;
+    width: 50%;
+}
+
+#orgChooseBtn {
+    margin: 0px;
+}
+
+#orgDisplayChoose {
+    width: 152px;
+    margin-left: 65px;
+    margin-top: -5px;
+    padding-left: 0px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+#hotelDisplayChoose {
+    width: 45%;
+    margin-left: 64px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#selectedHotel {
+    width: 25%;
+    height: 301px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.displayChoose {
+    margin-top: 5px;
+    /*border: 1px solid #333!important;*/
+    display: block!important;
+    overflow-y: hidden;
+    /*position: absolute;*/
+    position: relative;
+    /*top: 50%;
+    right: 50px;*/
+    /*width: 40%;
+    height: 50%;*/
+    /* width: 500px; */
+    float: left;
+    margin-right: 10px;
+    /* height: 300px; */
+    line-height: 40px;
+    overflow: auto;
+    /*margin-top: -100px;
+    margin-left: -100px;*/
+    padding: 10px 10px 5px 15px;
+    /**********************/
+    background: rgba(0, 0, 0, 0.6);
+    background-color: #FFFFFF;
+    color: black;
+    text-align: left;
+    font-size: 14px;
+}
+
+#orgShow,
+#hotelShow,
+#slHotelShow {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    overflow-y: scroll;
+    padding-left: 10px;
+}
+
+#orgShow {
+    height: 255px;
+}
+
+#hotelShow {
+    height: 280px;
+    margin-bottom: 5px;
+    /* border: 1px solid midnightblue; */
+}
+
+#slHotelShow {
+    height: 205px;
+    margin-top: -10px;
+}
+
+#orgShowList {
+    padding-left: 0;
+    margin-left: 0px;
+}
+
+#slHotelShowList {
+    padding-left: 0;
+    margin-left: 0px;
+}
+
+List {
+    padding-bottom: 5px;
+}
+
+#orgShow ul li,
+#hotelShow ul li {
+    list-style-type: none;
+    height: 40px;
+    float: left;
+}
+
+#slHotelShow ol li {
+    /* list-style-type: none; */
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    list-style-position: outside;
+    width: 90%;
+    border-bottom: 1px solid #99ccff
+}
+
+#orgShow ul li {
+    width: 100%;
+}
+
+#hotelShow ul li {
+    width: 30%;
+}
+
+#slHotelShow ol {
+    list-style-type: demical;
+}
+
+#orgShow ul li label input,
+#hotelShow ul li label input,
+#slHotelShow ol li label input,
+#selectAll input {
+    height: 17px;
+    width: 17px;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+#selectAll input {
+    margin-left: 0;
+}
+
+#orgDisplayChoose .btnDiv {
+    width: 150px;
+    /* width: 74px; */
+}
+
+
+/* #hotelDisplayChoose .btnDiv {
+    width: 74px;
+} */
+
+#selectedHotel p {
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+}
+
+#selectedHotel .btnDiv {
+    width: 154px;
+}
+
+.btnDiv {
+    position: relative;
+    margin: 10px auto 0;
+    height: 34px;
+    /*border: 1px solid yellowgreen !important;*/
+}
+
+.sl_hotel button {
+    margin-top: 6px;
+}
+
+.delSlHotel {
+    margin-left: 5px;
+}
+
+.mybtn2 {
+    float: right;
+    margin: 0 10px;
+    background-color: #66ccff;
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+    width: 52px;
+    height: 30px;
+}
+
+.mybtn2:hover,
+.mybtn2:focus {
+    background-color: #99ccff;
+    direction: none;
+    border: 0;
+    outline: none;
+}
+
+.mybtn {
+    float: left;
+    margin: 0 10px;
+    padding: 0 10px;
+    background-color: #18A665;
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.mybtn:hover,
+.mybtn:focus {
+    background-color: #006600;
+    direction: none;
+    border: 0;
+    outline: none;
+}
+
+.checkbox-inline span {
+    width: 180px;
+}
+
+
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 /*end Kun*/
 
 
@@ -176,6 +504,10 @@ input[type="color"] {
     line-height: 15px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 /*激活按钮div显示*/
 .actbuttondiv {
     display: none;
@@ -222,6 +554,11 @@ input[type="color"] {
     border-bottom: 1px solid silver;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 
 /*调整地址框*/
 
@@ -232,6 +569,10 @@ select {
     margin-bottom: 5px;
     margin-right: 5px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
 /*按钮优化*/
 button.btn.submit-btn,
 button.btn.btn-return{
@@ -257,3 +598,82 @@ button.btn.btn-return:forcus{
 	margin-left: 15px;
 	margin-top: 20px;
 }
+<<<<<<< HEAD
+=======
+=======
+
+
+/*按钮优化*/
+
+button.btn.submit-btn,
+button.btn.btn-return {
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #18A665;
+}
+
+button.btn.submit-btn:hover,
+button.btn.btn-return:hover {
+    background-color: #006600;
+    border-color: #FFFFFF;
+}
+
+button.btn.submit-btn:focus,
+button.btn.btn-return:forcus {
+    outline: #FFFFFF !important;
+}
+
+.form-item,
+.form-horizontal {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+/*ceshi统计*/
+hr{
+	border-top: 1px solid #8DB6CD;
+}
+
+/*cloud统计表格排序按钮*/
+.numsort,.pricesort{
+	display: none;
+}
+.numtd:hover .numsort{
+	display: block !important;
+	position: absolute;
+	width: 90px;
+	height: 50px;
+	top: 15px;
+	padding: 5px;
+	border: 1px solid #E8E8E8;
+	background-color: white;
+}
+.numtd:hover .pricesort{
+	display: block !important;
+	position: absolute;
+	width: 120px;
+	height: 50px;
+	top: 15px;
+	padding: 5px;
+	border: 1px solid #E8E8E8;
+	background-color: white;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+}
+ul li{
+	cursor: pointer;
+}
+.triangle-up {
+        display: inline-block;
+        border: 5px solid #FFFFFF;
+        border-top-color: #285E8E;
+        border-bottom: 2px;
+    }
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3

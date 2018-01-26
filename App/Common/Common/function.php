@@ -195,13 +195,33 @@ function object_array($array){
 
 function visitServer($url){
 //    $url = "http://219.218.160.71:61000/SmartOrder/SynData/Update/index";
+<<<<<<< HEAD
 	$url = "http://127.0.0.1/SmartOrder/SynData/Update/index";
+=======
+<<<<<<< HEAD
+	$url = "http://127.0.0.1/SmartOrder/SynData/Update/index";
+=======
+	$url = "http://172.18.4.71/SmartOrder/SynData/Update/index";
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $url);
     curl_setopt($curl, CURLOPT_HEADER, 1);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
     curl_exec($curl);
     curl_close($curl);
 }
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+=======
+    $data = curl_exec($curl);
+}
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3

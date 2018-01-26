@@ -27,7 +27,14 @@
 
     <!--ads add and show styles-->
     <link rel="stylesheet" href="/cloud/Public/Admin/css/newLayout.css" />
+<<<<<<< HEAD
     <link rel="stylesheet" href="/cloud/Public/Admin/css/newLayout1.css"/>
+=======
+<<<<<<< HEAD
+    <link rel="stylesheet" href="/cloud/Public/Admin/css/newLayout1.css"/>
+=======
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
     <!--[if lte IE 9]>
     <link rel="stylesheet" href="/cloud/Public/Admin/css/ace-part2.css" class="ace-main-stylesheet"/>
     <![endif]-->

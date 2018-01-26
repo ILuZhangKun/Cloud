@@ -41,6 +41,10 @@ function adsSubmit() {
     } else if (adnameres != "" || timeres != "" || adtextres != "" || fileres != "" || adtitleres != "" || adintrores != "" || phoneres != "") {
         alert("请输入正确内容");
     } else {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
         // data = {
         //     "chosedHotelArray": Global_chosedHotelArray,
         //     "is_submit": 1
@@ -58,6 +62,11 @@ function adsSubmit() {
         //         alert(111);
         //     }
         // });
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4ca55cbe52cb50d97a834758c67f69e9739becf8
+>>>>>>> c8137c124cc3e75113377cb1595922711cc578f3
         var confirmAdsAdd = document.getElementById('confirmAdsAdd');
         confirmAdsAdd.setAttribute('type', 'submit');
     }
